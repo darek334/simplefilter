@@ -33,7 +33,7 @@ Show
 #########################################
 #########################################
 Show
-	Class Map Leaguestone Jewel Divination Labyrinth Incursion Abyss Pantheon Delve Microtransactions Hideout Rods Piece Incubator
+	Class Leaguestone Labyrinth Incursion Abyss Pantheon Delve Microtransactions Hideout Incubator
 	SetFontSize 38
 	SetTextColor 0 0 0
 	SetBackgroundColor 128 196 255 255
@@ -48,6 +48,14 @@ Show
 	SetBackgroundColor 225 225 0 255
 	PlayAlertSound 6 300
 	PlayEffect Yellow Temp
+#########################################
+#########################################
+Show
+	Class Map Jewel Divination Rods Piece
+	SetFontSize 38
+	SetTextColor 0 0 0
+	SetBackgroundColor 225 160 0 255
+	PlayAlertSound 5 300
 #########################################
 #########################################
 Show

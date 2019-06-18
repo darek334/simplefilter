@@ -1,0 +1,154 @@
+#########################################
+Show
+	Class Quest
+	SetFontSize 38
+	SetTextColor 0 0 0
+	SetBackgroundColor 0 128 255 255
+	MinimapIcon 0 Blue Star
+	PlayEffect Blue
+	PlayAlertSound 15 300
+#########################################
+#########################################
+Show
+	Rarity Unique
+	SetFontSize 38
+	SetTextColor 255 128 0
+	SetBackgroundColor 96 0 0 255
+	PlayEffect Brown Temp
+	PlayAlertSound 15 300
+#########################################
+#########################################
+Show
+	FracturedItem True
+	SetFontSize 38
+	SetTextColor 0 0 0
+	SetBackgroundColor 128 196 255 255
+	PlayAlertSound 5 300
+Show
+	SynthesisedItem True
+	SetFontSize 38
+	SetTextColor 0 0 0
+	SetBackgroundColor 128 196 255 255
+	PlayAlertSound 5 300
+#########################################
+#########################################
+Show
+	Class Map Leaguestone Jewel Divination Labyrinth Incursion Abyss Pantheon Delve Microtransactions Hideout Rods Piece Incubator
+	SetFontSize 38
+	SetTextColor 0 0 0
+	SetBackgroundColor 128 196 255 255
+	PlayAlertSound 5 300
+#########################################
+#########################################
+Show
+	BaseType "Chaos" "Alchemy" "Chance" "Alteration" "Mirror of Kalandra" "Regal" "Regret" "Fusing" "Exalted" "Jeweller" "Divine" "Blessed" "Scouring" "Vaal" "Essence" "Silver Coin"
+	Class Currency
+	SetFontSize 38
+	SetTextColor 0 0 0
+	SetBackgroundColor 225 225 0 255
+	PlayAlertSound 6 300
+	PlayEffect Yellow Temp
+#########################################
+#########################################
+Show
+	Class Currency
+	SetFontSize 38
+	SetTextColor 0 0 0
+	SetBackgroundColor 225 225 225 255
+	PlayAlertSound 5 300
+#########################################
+#########################################
+Show
+	LinkedSockets > 3
+	Quality > 10
+	SetFontSize 38
+	SetBackgroundColor 64 64 64 255
+	SetBorderColor 255 255 0
+	PlayEffect Green Temp
+	PlayAlertSound 5 300
+Show
+	LinkedSockets > 3
+	SetFontSize 38
+	SetBorderColor 255 255 0
+	PlayEffect Green Temp
+	PlayAlertSound 5 300
+#########################################
+#########################################
+Show
+	LinkedSockets = 3
+	Quality > 10
+	SetBackgroundColor 64 64 64 255
+	SetBorderColor 255 160 0
+Show
+	LinkedSockets = 3
+	SetBorderColor 255 160 0
+#########################################
+#########################################
+Show
+	SocketGroup RGB
+	Quality > 10
+	SetFontSize 38
+	SetBackgroundColor 64 64 64 255
+	SetBorderColor 255 255 255
+	PlayAlertSound 5 300
+Show
+	SocketGroup RGB
+	SetFontSize 38
+	SetBorderColor 255 255 255
+	PlayAlertSound 5 300
+#########################################
+#########################################
+Show
+	Sockets > 3
+	Quality > 10
+	SetBackgroundColor 64 64 64 255
+	SetBorderColor 0 226 0
+Show
+	Sockets > 3
+	SetBorderColor 0 226 0
+##########################################
+#########################################
+Show
+	Class "Rings" "Amulet" "Belts"
+	SetBackgroundColor 192 0 0 255
+#########################################
+#########################################
+Show
+	Class Shields
+	Quality > 10
+	SetBackgroundColor 96 48 0 255
+	SetBorderColor 0 255 255
+Show
+	Class Shields
+	SetBackgroundColor 96 48 0 255
+#########################################
+#########################################
+Show
+	Class Flasks
+	Quality > 0
+	SetBackgroundColor 96 0 96 255
+	SetBorderColor 0 255 255
+Show
+	Class Flasks
+	SetBackgroundColor 96 0 96 255
+#########################################
+#########################################
+Show 
+	Class Gem
+	Quality > 0
+	SetFontSize 38
+	SetTextColor 0 226 0
+	SetBorderColor 0 255 255
+	PlayAlertSound 15 300
+	PlayEffect Blue Temp
+Show 
+	Class Gem
+	SetTextColor 0 226 0
+#########################################
+#########################################
+Show
+	Quality > 10
+	SetBorderColor 0 255 255
+Show
+    Rarity Rare
+Hide

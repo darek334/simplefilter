@@ -33,7 +33,7 @@ Show
 #########################################
 #########################################
 Show
-	Class Leaguestone Labyrinth Incursion Abyss Pantheon Delve Microtransactions Hideout Incubator
+	Class Leaguestone Labyrinth Incursion Abyss Pantheon Delve Incubator
 	SetFontSize 38
 	SetTextColor 0 0 0
 	SetBackgroundColor 128 196 255 255
@@ -51,7 +51,7 @@ Show
 #########################################
 #########################################
 Show
-	Class Map Jewel Divination Rods Piece
+	Class Map Jewel Divination Rods Piece Hideout Microtransactions
 	SetFontSize 38
 	SetTextColor 0 0 0
 	SetBackgroundColor 225 160 0 255
@@ -83,16 +83,6 @@ Show
 #########################################
 #########################################
 Show
-	LinkedSockets = 3
-	Quality > 10
-	SetBackgroundColor 64 64 64 255
-	SetBorderColor 255 160 0
-Show
-	LinkedSockets = 3
-	SetBorderColor 255 160 0
-#########################################
-#########################################
-Show
 	SocketGroup RGB
 	Quality > 10
 	SetFontSize 38
@@ -104,6 +94,16 @@ Show
 	SetFontSize 38
 	SetBorderColor 255 255 255
 	PlayAlertSound 5 300
+#########################################
+#########################################
+Show
+	LinkedSockets = 3
+	Quality > 10
+	SetBackgroundColor 64 64 64 255
+	SetBorderColor 255 160 0
+Show
+	LinkedSockets = 3
+	SetBorderColor 255 160 0
 #########################################
 #########################################
 Show

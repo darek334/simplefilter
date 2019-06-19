@@ -12,8 +12,8 @@ Show
 Show
 	Rarity Unique
 	SetFontSize 38
-	SetTextColor 255 128 0
-	SetBackgroundColor 96 0 0 255
+	SetTextColor 128 0 0
+	SetBackgroundColor 0 255 0 255
 	PlayEffect Brown Temp
 	PlayAlertSound 15 300
 #########################################
@@ -35,8 +35,8 @@ Show
 Show
 	Class Leaguestone Labyrinth Incursion Abyss Pantheon Delve Incubator
 	SetFontSize 38
-	SetTextColor 0 0 0
-	SetBackgroundColor 128 196 255 255
+	SetTextColor 160 0 0
+	SetBackgroundColor 255 255 0 255
 	PlayAlertSound 5 300
 #########################################
 #########################################
@@ -44,8 +44,8 @@ Show
 	BaseType "Chaos" "Alchemy" "Chance" "Alteration" "Mirror of Kalandra" "Regal" "Regret" "Fusing" "Exalted" "Jeweller" "Divine" "Blessed" "Scouring" "Vaal" "Essence" "Silver Coin"
 	Class Currency
 	SetFontSize 38
-	SetTextColor 0 0 0
-	SetBackgroundColor 225 225 0 255
+	SetTextColor 160 0 0
+	SetBackgroundColor 0 255 255 255
 	PlayAlertSound 6 300
 	PlayEffect Yellow Temp
 #########################################
@@ -53,16 +53,16 @@ Show
 Show
 	Class Map Jewel Divination Rods Piece Hideout Microtransactions
 	SetFontSize 38
-	SetTextColor 0 0 0
-	SetBackgroundColor 225 160 0 255
+	SetTextColor 160 0 0
+	SetBackgroundColor 0 192 225 255
 	PlayAlertSound 5 300
 #########################################
 #########################################
 Show
 	Class Currency
 	SetFontSize 38
-	SetTextColor 0 0 0
-	SetBackgroundColor 225 225 225 255
+	SetTextColor 128 0 0
+	SetBackgroundColor 0 144 225 255
 	PlayAlertSound 5 300
 #########################################
 #########################################

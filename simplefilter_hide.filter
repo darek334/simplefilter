@@ -122,16 +122,6 @@ Show
 #########################################
 #########################################
 Show
-	Class Shields
-	Quality > 10
-	SetBackgroundColor 96 48 0 255
-	SetBorderColor 0 255 255
-Show
-	Class Shields
-	SetBackgroundColor 96 48 0 255
-#########################################
-#########################################
-Show
 	Class Flasks
 	Quality > 0
 	SetBackgroundColor 96 0 96 255
@@ -139,6 +129,14 @@ Show
 Show
 	Class Flasks
 	SetBackgroundColor 96 0 96 255
+#########################################
+######################################### hide
+#########################################
+Show
+	Class Shields
+	Quality > 10
+	SetBackgroundColor 96 48 0 255
+	SetBorderColor 0 255 255
 #########################################
 #########################################
 Show 
@@ -149,9 +147,6 @@ Show
 	SetBorderColor 0 255 255
 	PlayAlertSound 15 300
 	PlayEffect Blue Temp
-Show 
-	Class Gem
-	SetTextColor 0 226 0
 #########################################
 #########################################
 Show

@@ -6,7 +6,7 @@ Show
 	SetBackgroundColor 255 255 255 255
 	MinimapIcon 0 White Star
 	PlayEffect White
-	PlayAlertSound 15 300
+	PlayAlertSound 5 300
 #########################################
 #########################################
 Show
@@ -15,20 +15,44 @@ Show
 	SetTextColor 128 0 0
 	SetBackgroundColor 0 255 0 255
 	PlayEffect Green Temp
-	PlayAlertSound 15 300
+	PlayAlertSound 6 300
 #########################################
 #########################################
 Show
-	FracturedItem True
+	ElderItem  True
 	SetFontSize 38
 	SetTextColor 0 0 0
-	SetBackgroundColor 128 196 255 255
+	SetBackgroundColor 0 128 0 255
+	PlayAlertSound 5 300
+Show
+	ShaperItem  True
+	SetFontSize 38
+	SetTextColor 0 0 0
+	SetBackgroundColor 0 128 0 255
+	PlayAlertSound 5 300
+Show
+	HasExplicitMod ""
+	SetFontSize 38
+	SetTextColor 0 0 0
+	SetBackgroundColor 0 128 0 255
+	PlayAlertSound 5 300
+Show
+	AnyEnchantment True
+	SetFontSize 38
+	SetTextColor 0 0 0
+	SetBackgroundColor 0 128 0 255
 	PlayAlertSound 5 300
 Show
 	SynthesisedItem True
 	SetFontSize 38
 	SetTextColor 0 0 0
-	SetBackgroundColor 128 196 255 255
+	SetBackgroundColor 0 128 0 255
+	PlayAlertSound 5 300
+Show
+	FracturedItem True
+	SetFontSize 38
+	SetTextColor 0 0 0
+	SetBackgroundColor 0 128 0 255
 	PlayAlertSound 5 300
 #########################################
 #########################################
@@ -63,7 +87,7 @@ Show
 	SetFontSize 38
 	SetTextColor 128 0 0
 	SetBackgroundColor 0 144 225 255
-	PlayAlertSound 5 300
+	PlayAlertSound 1 300 # 12
 #########################################
 #########################################
 Show
@@ -73,14 +97,14 @@ Show
 	SetBackgroundColor 0 160 0 255
 	SetBorderColor 255 255 0
 	PlayEffect Yellow Temp
-	PlayAlertSound 5 300
+	PlayAlertSound 6 300
 Show
 	LinkedSockets > 3
 	SetFontSize 38
 	SetBackgroundColor 0 128 0 255
 	SetBorderColor 255 255 0
 	PlayEffect Yellow Temp
-	PlayAlertSound 5 300
+	PlayAlertSound 6 300
 #########################################
 #########################################
 Show
@@ -89,12 +113,12 @@ Show
 	SetFontSize 38
 	SetBackgroundColor 64 64 64 255
 	SetBorderColor 255 255 255
-	PlayAlertSound 5 300
+	PlayAlertSound 1 300
 Show
 	SocketGroup RGB
 	SetFontSize 38
 	SetBorderColor 255 255 255
-	PlayAlertSound 5 300
+	PlayAlertSound 1 300
 #########################################
 #########################################
 Show
@@ -146,7 +170,7 @@ Show
 	SetFontSize 38
 	SetTextColor 0 226 0
 	SetBorderColor 0 255 255
-	PlayAlertSound 15 300
+	PlayAlertSound 5 300
 	PlayEffect Blue Temp
 #########################################
 #########################################

@@ -27,49 +27,55 @@ Show
 	PlayEffect Yellow Temp
 	PlayAlertSound 6 300
 Show
-	Class Currency "Map Fragments"
-	BaseType "Prophecy" "Fossil" "Silver Coin" "Essence" "Splinter" "Emblem"
-	SetFontSize 38
-	SetTextColor 48 48 0
-	SetBackgroundColor 255 255 0 255
-	PlayEffect Yellow Temp
-	PlayAlertSound 6 300
+    Class Currency "Map Fragments"
+    BaseType "Prophecy" "Fossil" "Silver Coin" "Essence" "Splinter" "Emblem" "Perandus Coin" "Vial of " "Blessing of " "Bestiary Orb" "Remnant of Corruption"
+    SetFontSize 38
+    SetTextColor 48 48 0
+    SetBackgroundColor 255 255 0 255
+    PlayEffect Yellow Temp
+    PlayAlertSound 6 300
 Show
-	SynthesisedItem True
-	SetFontSize 38
-	SetTextColor 0 48 0
-	SetBackgroundColor 0 192 0 255
-	PlayAlertSound 5 300
+    SynthesisedItem True
+    SetFontSize 38
+    SetTextColor 0 48 0
+    SetBackgroundColor 0 192 0 255
+    PlayAlertSound 5 300
 Show
-	FracturedItem True
-	SetFontSize 38
-	SetTextColor 0 48 0
-	SetBackgroundColor 0 192 0 255
-	PlayAlertSound 5 300
+    FracturedItem True
+    SetFontSize 38
+    SetTextColor 0 48 0
+    SetBackgroundColor 0 192 0 255
+    PlayAlertSound 5 300
 Show
-	ElderItem True
-	SetFontSize 38
-	SetTextColor 0 48 0
-	SetBackgroundColor 0 192 0 255
-	PlayAlertSound 5 300
+    ElderItem True
+    SetFontSize 38
+    SetTextColor 0 48 0
+    SetBackgroundColor 0 192 0 255
+    PlayAlertSound 5 300
 Show
-	ShaperItem True
-	SetFontSize 38
-	SetTextColor 0 48 0
-	SetBackgroundColor 0 192 0 255
-	PlayAlertSound 5 300
+    ShaperItem True
+    SetFontSize 38
+    SetTextColor 0 48 0
+    SetBackgroundColor 0 192 0 255
+    PlayAlertSound 5 300
 Show
     HasExplicitMod " " "Veiled" ""
     SetFontSize 38
-	SetTextColor 0 48 0
-	SetBackgroundColor 0 192 0 255
-	PlayAlertSound 5 300
+    SetTextColor 0 48 0
+    SetBackgroundColor 0 192 0 255
+    PlayAlertSound 5 300
 Show
-	AnyEnchantment True
-	SetFontSize 38
-	SetTextColor 0 48 0
-	SetBackgroundColor 0 192 0 255
-	PlayAlertSound 5 300
+    HasEnchantment ""
+    SetFontSize 38
+    SetTextColor 0 48 0
+    SetBackgroundColor 0 192 0 255
+    PlayAlertSound 5 300
+Show
+    AnyEnchantment True
+    SetFontSize 38
+    SetTextColor 0 48 0
+    SetBackgroundColor 0 192 0 255
+    PlayAlertSound 5 300
 #########################################
 #########################################Currency
 #########################################
@@ -110,14 +116,14 @@ Show
 	LinkedSockets > 3
 	Quality > 10
 	SetFontSize 38
-	SetBackgroundColor 0 48 176 255
+	SetBackgroundColor 0 16 92 255
 	SetBorderColor 255 255 0
 	PlayEffect Yellow Temp
 	PlayAlertSound 6 300
 Show
 	LinkedSockets > 3
 	SetFontSize 38
-	SetBackgroundColor 0 128 0 255
+	SetBackgroundColor 0 92 0 255
 	SetBorderColor 255 255 0
 	PlayEffect Yellow Temp
 	PlayAlertSound 6 300
@@ -127,7 +133,7 @@ Show
 	SocketGroup RGB
 	Quality > 10
 	SetFontSize 38
-	SetBackgroundColor 0 64 192 255
+	SetBackgroundColor 0 16 92 255
 	SetBorderColor 255 255 255
 	PlayAlertSound 1 300
 Show
@@ -140,7 +146,7 @@ Show
 Show
 	LinkedSockets = 3
 	Quality > 10
-	SetBackgroundColor 0 64 192 255
+	SetBackgroundColor 0 16 92 255
 	SetBorderColor 255 160 0
 Show
 	LinkedSockets = 3
@@ -150,7 +156,7 @@ Show
 Show
 	Sockets > 3
 	Quality > 10
-	SetBackgroundColor 0 64 192 255
+	SetBackgroundColor 0 16 92 255
 	SetBorderColor 0 226 0
 Show
 	Sockets > 3
@@ -188,7 +194,16 @@ Show
 #########################################
 Show
 	Quality > 10
+	Class Shields
+	SetBackgroundColor 64 64 64 255
 	SetBorderColor 0 255 255
+Show
+	Quality > 10
+	SetBorderColor 0 255 255
+Show
+    Rarity Rare
+	Class Shields
+	SetBackgroundColor 64 64 64 255
 Show
     Rarity Rare
 Hide

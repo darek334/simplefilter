@@ -132,7 +132,7 @@ Show
 Show
 	LinkedSockets = 4
 	Quality > 10
-	Class "Body armours" "Bows" "Two Hand" "Staves"
+	Class "Body Armours" "Bows" "Two Hand" "Staves"
 	ItemLevel < 56
 	SetFontSize 38
 	SetBackgroundColor 0 16 92 255
@@ -141,7 +141,7 @@ Show
 	PlayAlertSound 6 300
 Show
 	LinkedSockets = 4
-	Class "Body armours" "Bows" "Two Hand" "Staves"
+	Class "Body Armours" "Bows" "Two Hand" "Staves"
 	ItemLevel < 56
 	SetFontSize 38
 	SetBackgroundColor 0 92 0 255
@@ -184,7 +184,7 @@ Show
 Show
 	LinkedSockets = 3
 	Quality > 10
-	Class "Body armours" "Bows" "Two Hand" "Staves" "Boots" "Helmets" "Gloves"
+	Class "Body Armours" "Bows" "Two Hand" "Staves" "Boots" "Helmets" "Gloves"
 	ItemLevel < 41
 	SetFontSize 38
 	SetBackgroundColor 0 16 92 255
@@ -193,7 +193,7 @@ Show
 	PlayAlertSound 6 300
 Show
 	LinkedSockets = 3
-	Class "Body armours" "Bows" "Two Hand" "Staves" "Boots" "Helmets" "Gloves"
+	Class "Body Armours" "Bows" "Two Hand" "Staves" "Boots" "Helmets" "Gloves"
 	ItemLevel < 41
 	SetFontSize 38
 	SetBackgroundColor 0 92 0 255
@@ -231,13 +231,13 @@ Show
 Show
 	Sockets = 4
 	Quality > 10
-	Class "Body armours" "Bows" "Two Hand" "Staves"
+	Class "Body Armours" "Bows" "Two Hand" "Staves"
 	ItemLevel < 51
 	SetBackgroundColor 0 16 92 255
 	SetBorderColor 0 226 0
 Show
 	Sockets = 4
-	Class "Body armours" "Bows" "Two Hand" "Staves"
+	Class "Body Armours" "Bows" "Two Hand" "Staves"
 	ItemLevel < 51
 	SetBorderColor 0 226 0
 #########################################
@@ -254,13 +254,13 @@ Show
 Show
 	Sockets = 3
 	Quality > 10
-	Class "Body armours" "Bows" "Two Hand" "Staves" "Boots" "Helmets" "Gloves"
+	Class "Body Armours" "Bows" "Two Hand" "Staves" "Boots" "Helmets" "Gloves"
 	ItemLevel < 36
 	SetBackgroundColor 0 16 92 255
 	SetBorderColor 0 226 0
 Show
 	Sockets = 3
-	Class "Body armours" "Bows" "Two Hand" "Staves" "Boots" "Helmets" "Gloves"
+	Class "Body Armours" "Bows" "Two Hand" "Staves" "Boots" "Helmets" "Gloves"
 	ItemLevel < 36
 	SetBorderColor 0 226 0
 #########################################

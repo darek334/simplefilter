@@ -1,4 +1,5 @@
 #########################################simplefilter 08072019
+# shows all leagues currency, items, any currerncy, uniques, socket grup, socket linked, maps, quality gem and items with dynamical show, in minimal colors with safe oryginal game colors. Rest is hide and invisible.
 Show
 	Class Quest
 	SetFontSize 38
@@ -114,21 +115,39 @@ Show
 #########################################
 Show
 	LinkedSockets > 4
+	SocketGroup RGB
+	SetFontSize 38
+	SetBackgroundColor 0 64 192 255
+	SetBorderColor 255 255 255
+	PlayEffect Yellow Temp
+	PlayAlertSound 6 300
+Show
+	LinkedSockets > 4
 	Quality > 10
 	SetFontSize 38
 	SetBackgroundColor 0 16 92 255
-	SetBorderColor 255 255 0
+	SetBorderColor 255 255 255
 	PlayEffect Yellow Temp
 	PlayAlertSound 6 300
 Show
 	LinkedSockets > 4
 	SetFontSize 38
 	SetBackgroundColor 0 92 0 255
-	SetBorderColor 255 255 0
+	SetBorderColor 255 255 255
 	PlayEffect Yellow Temp
 	PlayAlertSound 6 300
 #########################################
 #########################################
+Show
+	LinkedSockets = 4
+	SocketGroup RGB
+	Class "Body Armours" "Bows" "Two Hand" "Staves"
+	ItemLevel < 56
+	SetFontSize 38
+	SetBackgroundColor 0 64 192 255
+	SetBorderColor 255 255 0
+	PlayEffect Yellow Temp
+	PlayAlertSound 5 300 # 12
 Show
 	LinkedSockets = 4
 	Quality > 10
@@ -138,7 +157,7 @@ Show
 	SetBackgroundColor 0 16 92 255
 	SetBorderColor 255 255 0
 	PlayEffect Yellow Temp
-	PlayAlertSound 6 300
+	PlayAlertSound 5 300 # 12
 Show
 	LinkedSockets = 4
 	Class "Body Armours" "Bows" "Two Hand" "Staves"
@@ -147,40 +166,44 @@ Show
 	SetBackgroundColor 0 92 0 255
 	SetBorderColor 255 255 0
 	PlayEffect Yellow Temp
-	PlayAlertSound 6 300
+	PlayAlertSound 5 300 # 12
 #########################################
 Show
 	LinkedSockets = 4
+	SocketGroup RGB
+	Class "Boots" "Helmets" "Gloves"
+	SetFontSize 38
+	SetBackgroundColor 0 64 192 255
+	SetBorderColor 255 255 0
+	PlayEffect Yellow Temp
+	PlayAlertSound 5 300 # 12
+Show
+	LinkedSockets = 4
 	Quality > 10
+	Class "Boots" "Helmets" "Gloves"
 	SetFontSize 38
 	SetBackgroundColor 0 16 92 255
 	SetBorderColor 255 255 0
 	PlayEffect Yellow Temp
-	PlayAlertSound 6 300
+	PlayAlertSound 5 300 # 12
 Show
 	LinkedSockets = 4
+	Class "Boots" "Helmets" "Gloves"
 	SetFontSize 38
 	SetBackgroundColor 0 92 0 255
 	SetBorderColor 255 255 0
 	PlayEffect Yellow Temp
-	PlayAlertSound 6 300
+	PlayAlertSound 5 300 # 12
 #########################################
 #########################################
 Show
+	LinkedSockets = 3
 	SocketGroup RGB
-	Quality > 10
+	Class "Body Armours" "Bows" "Two Hand" "Staves" "Boots" "Helmets" "Gloves"
+	ItemLevel < 41
 	SetFontSize 38
-	SetBackgroundColor 0 16 92 255
-	SetBorderColor 255 255 255
-	PlayAlertSound 1 300
-Show
-	SocketGroup RGB
-	SetFontSize 38
-	SetBackgroundColor 0 92 0 255
-	SetBorderColor 255 255 255
-	PlayAlertSound 1 300
-#########################################
-#########################################
+	SetBackgroundColor 0 64 192 255
+	SetBorderColor 255 160 0
 Show
 	LinkedSockets = 3
 	Quality > 10
@@ -189,33 +212,39 @@ Show
 	SetFontSize 38
 	SetBackgroundColor 0 16 92 255
 	SetBorderColor 255 160 0
-	PlayEffect Yellow Temp
-	PlayAlertSound 6 300
 Show
 	LinkedSockets = 3
 	Class "Body Armours" "Bows" "Two Hand" "Staves" "Boots" "Helmets" "Gloves"
 	ItemLevel < 41
 	SetFontSize 38
-	SetBackgroundColor 0 92 0 255
 	SetBorderColor 255 160 0
-	PlayEffect Yellow Temp
-	PlayAlertSound 6 300
 #########################################
 Show
 	LinkedSockets = 3
+	SocketGroup RGB
+	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands"
+	SetFontSize 38
+	SetBackgroundColor 0 64 192 255
+	SetBorderColor 255 160 0
+	PlayEffect Yellow Temp
+	PlayAlertSound 5 300 # 12
+Show
+	LinkedSockets = 3
 	Quality > 10
+	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands"
 	SetFontSize 38
 	SetBackgroundColor 0 16 92 255
 	SetBorderColor 255 160 0
 	PlayEffect Yellow Temp
-	PlayAlertSound 6 300
+	PlayAlertSound 5 300 # 12
 Show
 	LinkedSockets = 3
+	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands"
 	SetFontSize 38
 	SetBackgroundColor 0 92 0 255
 	SetBorderColor 255 160 0
 	PlayEffect Yellow Temp
-	PlayAlertSound 6 300
+	PlayAlertSound 5 300 # 12
 #########################################
 #########################################
 Show
@@ -244,10 +273,12 @@ Show
 Show
 	Sockets = 4
 	Quality > 10
+	Class "Boots" "Helmets" "Gloves"
 	SetBackgroundColor 0 16 92 255
 	SetBorderColor 0 226 0
 Show
 	Sockets = 4
+	Class "Boots" "Helmets" "Gloves"
 	SetBorderColor 0 226 0
 #########################################
 #########################################
@@ -267,10 +298,12 @@ Show
 Show
 	Sockets = 3
 	Quality > 10
+	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands"
 	SetBackgroundColor 0 16 92 255
 	SetBorderColor 0 226 0
 Show
 	Sockets = 3
+	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands"
 	SetBorderColor 0 226 0
 #########################################
 #########################################Other, hide
@@ -312,6 +345,16 @@ Show
 Show
 	Quality > 10
 	ItemLevel < 51
+	SetBorderColor 0 255 255
+Show
+	Quality > 10
+	Class Shields
+	SetFontSize 22
+	SetBackgroundColor 64 64 64 255
+	SetBorderColor 0 255 255
+Show
+	Quality > 10
+	SetFontSize 22
 	SetBorderColor 0 255 255
 #########################################
 #########################################

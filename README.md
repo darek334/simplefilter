@@ -1,4 +1,2 @@
-# simplefilter_hide
 Path of Exile item filter
-shows only important items and Currency rest is invisible
-shows all league item, all Currency, unique, socked linked with group, quality, all explicit mode, all enhancments
+Shows all leagues currency, items, any currerncy, uniques, socket grup, socket linked, maps, fragments, quality gem and items with dynamical level, most original colors is save. Rest is invisible.

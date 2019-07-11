@@ -1,5 +1,5 @@
 #########################################simplefilter 10072019
-# shows all leagues currency, items, any currerncy, uniques, socket grup, socket linked, maps, quality gem and items with dynamical show, in minimal colors with safe oryginal game colors. Rest is Invisible.
+# Shows all leagues currency, items, any currerncy, uniques, socket grup, socket linked, maps, fragments, quality gem and items with dynamical level, most original colors is save. Rest is Invisible.
 Show
 	Class Quest
 	SetFontSize 38
@@ -282,6 +282,7 @@ Show
 	SetBackgroundColor 192 0 0 255
 Hide
 	Class "Rings" "Amulet" "Belts"
+	SetFontSize 22
 #########################################flasks
 #########################################
 Show
@@ -306,6 +307,7 @@ Show
 	SetBackgroundColor 96 0 96 255
 Hide
 	Class Flasks
+	SetFontSize 22
 #########################################rare
 #########################################
 Show
@@ -324,3 +326,4 @@ Show
 #########################################trash 1
 #########################################
 Hide
+	SetFontSize 22

@@ -243,12 +243,12 @@ Show
 Show
 	Sockets = 3
 	Quality > 10
-	ItemLevel < 36
+	ItemLevel < 30
 	SetBackgroundColor 0 16 92 255
 	SetBorderColor 0 226 0
 Show
 	Sockets = 3
-	ItemLevel < 36
+	ItemLevel < 30
 	SetBorderColor 0 226 0
 Show
 	Sockets = 3

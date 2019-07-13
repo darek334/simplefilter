@@ -27,48 +27,48 @@ Show
 	PlayAlertSound 6 300
 	MinimapIcon 1 Brown Circle
 Show
-    Class Currency "Map Fragments"
-    BaseType "Prophecy" "Fossil" "Silver Coin" "Essence" "Splinter" "Emblem" "Perandus Coin" "Vial of " "Blessing of " "Bestiary Orb" "Remnant of Corruption"
-    SetFontSize 38
-    SetBackgroundColor 255 128 0
-    PlayEffect Yellow Temp
-    PlayAlertSound 6 300
+	Class Currency "Map Fragments"
+	BaseType "Prophecy" "Fossil" "Silver Coin" "Essence" "Splinter" "Emblem" "Perandus Coin" "Vial of " "Blessing of " "Bestiary Orb" "Remnant of Corruption"
+	SetFontSize 38
+	SetBackgroundColor 255 128 0
+	PlayEffect Yellow Temp
+	PlayAlertSound 6 300
 	MinimapIcon 1 Brown Circle
 Show
-    SynthesisedItem True
-    SetFontSize 38
-    SetBackgroundColor 0 192 0 255
-    PlayAlertSound 5 300
+	SynthesisedItem True
+	SetFontSize 38
+	SetBackgroundColor 0 192 0 255
+	PlayAlertSound 5 300
 	MinimapIcon 1 Green Circle
 Show
-    FracturedItem True
-    SetFontSize 38
-    SetBackgroundColor 0 192 0 255
-    PlayAlertSound 5 300
+	FracturedItem True
+	SetFontSize 38
+	SetBackgroundColor 0 192 0 255
+	PlayAlertSound 5 300
 	MinimapIcon 1 Green Circle
 Show
-    ElderItem True
-    SetFontSize 38
-    SetBackgroundColor 0 192 0 255
-    PlayAlertSound 5 300
+	ElderItem True
+	SetFontSize 38
+	SetBackgroundColor 0 192 0 255
+	PlayAlertSound 5 300
 	MinimapIcon 1 Green Circle
 Show
-    ShaperItem True
-    SetFontSize 38
-    SetBackgroundColor 0 192 0 255
-    PlayAlertSound 5 300
+	ShaperItem True
+	SetFontSize 38
+	SetBackgroundColor 0 192 0 255
+	PlayAlertSound 5 300
 	MinimapIcon 1 Green Circle
 Show
-    HasExplicitMod "Veiled"
-    SetFontSize 38
-    SetBackgroundColor 0 192 0 255
-    PlayAlertSound 5 300
+	HasExplicitMod "Veiled"
+	SetFontSize 38
+	SetBackgroundColor 0 192 0 255
+	PlayAlertSound 5 300
 	MinimapIcon 1 Green Circle
 Show
-    AnyEnchantment True
-    SetFontSize 38
-    SetBackgroundColor 0 192 0 255
-    PlayAlertSound 5 300
+	AnyEnchantment True
+	SetFontSize 38
+	SetBackgroundColor 0 192 0 255
+	PlayAlertSound 5 300
 	MinimapIcon 1 Green Circle
 #########################################
 #########################################Currency
@@ -81,7 +81,7 @@ Show
 	SetBackgroundColor 0 64 192 255
 	PlayAlertSound 1 300 # 12
 Show
-    Class Currency
+	Class Currency
 	BaseType "Chaos" "Alchemy" "Chance" "Alteration" "Mirror of Kalandra" "Regal" "Regret" "Fusing" "Exalted" "Jeweller" "Divine" "Blessed" "Scouring" "Vaal Orb" "Essence" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Annulment" "Annulment Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Mirror Shard"
 	SetFontSize 38
 	SetTextColor 0 32 32
@@ -314,11 +314,11 @@ Hide
 #########################################rare
 #########################################
 Show
-    Rarity Rare
+	Rarity Rare
 	Quality > 10
 	SetBackgroundColor 48 48 48 255
 Show
-    Rarity Rare
+	Rarity Rare
 #########################################quality
 #########################################
 Show

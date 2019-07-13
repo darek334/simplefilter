@@ -1,9 +1,8 @@
-#########################################simplefilter 10072019
+#########################################simplefilter 13072019
 # Shows all leagues currency, items, any currerncy, uniques, socket grup, socket linked, maps, fragments, quality gem and items with dynamical level, most original colors is save. Rest is Invisible.
 Show
 	Class Quest
 	SetFontSize 38
-	SetTextColor 0 48 48
 	SetBackgroundColor 255 255 255 255
 	MinimapIcon 0 White Star
 	PlayEffect White
@@ -13,64 +12,64 @@ Show
 Show
 	Rarity Unique
 	SetFontSize 38
-	SetTextColor 0 0 0
 	SetBackgroundColor 0 250 0
 	PlayEffect Green Temp
 	PlayAlertSound 6 300
+	MinimapIcon 1 Green Diamond
 #########################################
 #########################################Leagues
 #########################################No rules: Anarchy, Onslaught, Domination, Nemesis, Ambush, Invasion, Rampage, Beyond, Torment, Bloodlines, Warbands, Tempest, Talisman, Perandus, Prophecy, Essence, Breach, Legacy, Harbinger, Bestiary Betrayal Synthesis Legion
 Show
 	Class Abyss Incursion Delve Leaguestone Labyrinth Pantheon Incubator
 	SetFontSize 38
-	SetTextColor 48 48 0
-	SetBackgroundColor 255 255 0 255
+	SetBackgroundColor 255 128 0
 	PlayEffect Yellow Temp
 	PlayAlertSound 6 300
+	MinimapIcon 1 Brown Circle
 Show
     Class Currency "Map Fragments"
     BaseType "Prophecy" "Fossil" "Silver Coin" "Essence" "Splinter" "Emblem" "Perandus Coin" "Vial of " "Blessing of " "Bestiary Orb" "Remnant of Corruption"
     SetFontSize 38
-    SetTextColor 48 48 0
-    SetBackgroundColor 255 255 0 255
+    SetBackgroundColor 255 128 0
     PlayEffect Yellow Temp
     PlayAlertSound 6 300
+	MinimapIcon 1 Brown Circle
 Show
     SynthesisedItem True
     SetFontSize 38
-    SetTextColor 0 48 0
     SetBackgroundColor 0 192 0 255
     PlayAlertSound 5 300
+	MinimapIcon 1 Green Circle
 Show
     FracturedItem True
     SetFontSize 38
-    SetTextColor 0 48 0
     SetBackgroundColor 0 192 0 255
     PlayAlertSound 5 300
+	MinimapIcon 1 Green Circle
 Show
     ElderItem True
     SetFontSize 38
-    SetTextColor 0 48 0
     SetBackgroundColor 0 192 0 255
     PlayAlertSound 5 300
+	MinimapIcon 1 Green Circle
 Show
     ShaperItem True
     SetFontSize 38
-    SetTextColor 0 48 0
     SetBackgroundColor 0 192 0 255
     PlayAlertSound 5 300
+	MinimapIcon 1 Green Circle
 Show
     HasExplicitMod "Veiled" ""
     SetFontSize 38
-    SetTextColor 0 48 0
     SetBackgroundColor 0 192 0 255
     PlayAlertSound 5 300
+	MinimapIcon 1 Green Circle
 Show
     AnyEnchantment True
     SetFontSize 38
-    SetTextColor 0 48 0
     SetBackgroundColor 0 192 0 255
     PlayAlertSound 5 300
+	MinimapIcon 1 Green Circle
 #########################################
 #########################################Currency
 #########################################
@@ -93,7 +92,7 @@ Show
 	Class Currency
 	SetFontSize 38
 	SetTextColor 0 32 32
-	SetBackgroundColor 0 192 255 255
+	SetBackgroundColor 0 160 255 255
 	PlayAlertSound 5 300 # 12
 #########################################
 #########################################Map Jewel
@@ -102,7 +101,7 @@ Show
 	Class Maps Jewel "Divination Card" "Fishing Rods" Piece Hideout Microtransactions
 	SetFontSize 38
 	SetTextColor 0 32 32
-	SetBackgroundColor 0 192 255 255
+	SetBackgroundColor 0 160 255 255
 	PlayAlertSound 5 300
 #########################################
 #########################################LinkedSockets
@@ -111,17 +110,18 @@ Show
 	LinkedSockets > 4
 	SocketGroup RGB
 	SetFontSize 38
-	SetBackgroundColor 0 64 192 255
-	SetBorderColor 255 255 255
-	PlayEffect Yellow Temp
+	SetBackgroundColor 0 32 64 255
+	SetBorderColor 0 255 0
+	PlayEffect Green Temp
 	PlayAlertSound 6 300
+	MinimapIcon 1 Green Hexagon
 Show
 	LinkedSockets > 4
 	SetFontSize 38
-	SetBackgroundColor 0 92 0 255
-	SetBorderColor 255 255 255
-	PlayEffect Yellow Temp
+	SetBorderColor 0 255 0
+	PlayEffect Green Temp
 	PlayAlertSound 6 300
+	MinimapIcon 1 Green Hexagon
 #########################################
 #########################################
 Show
@@ -129,40 +129,35 @@ Show
 	SocketGroup RGB
 	ItemLevel < 56
 	SetFontSize 38
-	SetBackgroundColor 0 64 192 255
+	SetBackgroundColor 0 32 64 255
 	SetBorderColor 255 255 0
-	PlayEffect Yellow Temp
 	PlayAlertSound 5 300 # 12
 Show
 	LinkedSockets = 4
 	ItemLevel < 56
 	SetFontSize 38
-	SetBackgroundColor 0 92 0 255
 	SetBorderColor 255 255 0
-	PlayEffect Yellow Temp
 	PlayAlertSound 5 300 # 12
 Show
 	LinkedSockets = 4
 	SocketGroup RGB
 	Class "Boots" "Helmets" "Gloves"
 	SetFontSize 38
-	SetBackgroundColor 0 64 192 255
+	SetBackgroundColor 0 32 64 255
 	SetBorderColor 255 255 0
-	PlayEffect Yellow Temp
 	PlayAlertSound 5 300 # 12
 Show
 	LinkedSockets = 4
 	SocketGroup RGB
 	SetFontSize 22
-	SetBackgroundColor 0 64 192 255
+	SetBackgroundColor 0 32 64 255
 	SetBorderColor 255 255 0
+	PlayAlertSound 5 300 # 12
 Show
 	LinkedSockets = 4
 	Class "Boots" "Helmets" "Gloves"
 	SetFontSize 38
-	SetBackgroundColor 0 92 0 255
 	SetBorderColor 255 255 0
-	PlayEffect Yellow Temp
 	PlayAlertSound 5 300 # 12
 #########################################
 #########################################
@@ -170,28 +165,28 @@ Show
 	LinkedSockets = 3
 	SocketGroup RGB
 	ItemLevel < 41
-	SetBackgroundColor 0 64 192 255
-	SetBorderColor 255 160 0
+	SetBackgroundColor 0 32 64 255
+	SetBorderColor 0 64 160 # 255 160 0
 Show
 	LinkedSockets = 3
 	ItemLevel < 41
-	SetBorderColor 255 160 0
+	SetBorderColor 0 64 160 # 255 160 0
 Show
 	LinkedSockets = 3
 	SocketGroup RGB
 	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands"
-	SetBackgroundColor 0 64 192 255
-	SetBorderColor 255 160 0
+	SetBackgroundColor 0 32 64 255
+	SetBorderColor 0 64 160 # 255 160 0
 Show
 	LinkedSockets = 3
 	SocketGroup RGB
 	SetFontSize 22
-	SetBackgroundColor 0 64 192 255
-	SetBorderColor 255 160 0
+	SetBackgroundColor 0 32 64 255
+	SetBorderColor 0 64 160 # 255 160 0
 Show
 	LinkedSockets = 3
 	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands"
-	SetBorderColor 255 160 0
+	SetBorderColor 0 64 160 # 255 160 0
 #########################################
 #########################################Sockets
 #########################################
@@ -199,70 +194,70 @@ Show
 	Sockets > 4
 	Quality > 10
 	ItemLevel < 71
-	SetBackgroundColor 0 16 92 255
-	SetBorderColor 0 226 0
+	SetBackgroundColor 48 48 48 255
+	SetBorderColor 255 255 255
 Show
 	Sockets > 4
 	ItemLevel < 71
-	SetBorderColor 0 226 0
+	SetBorderColor 255 255 255
 Show
 	Sockets > 4
 	Quality > 10
 	SetFontSize 22
-	SetBackgroundColor 0 16 92 255
-	SetBorderColor 0 226 0
+	SetBackgroundColor 48 48 48 255
+	SetBorderColor 255 255 255
 Show
 	Sockets > 4
 	SetFontSize 22
-	SetBorderColor 0 226 0
+	SetBorderColor 255 255 255
 #########################################
 #########################################
 Show
 	Sockets = 4
 	Quality > 10
 	ItemLevel < 36
-	SetBackgroundColor 0 16 92 255
-	SetBorderColor 0 226 0
+	SetBackgroundColor 48 48 48 255
+	SetBorderColor 160 160 160
 Show
 	Sockets = 4
 	ItemLevel < 36
-	SetBorderColor 0 226 0
+	SetBorderColor 160 160 160
 Show
 	Sockets = 4
 	Quality > 10
 	Class "Boots" "Helmets" "Gloves"
 	SetFontSize 22
-	SetBackgroundColor 0 16 92 255
-	SetBorderColor 0 226 0
+	SetBackgroundColor 48 48 48 255
+	SetBorderColor 160 160 160
 Show
 	Sockets = 4
 	Class "Boots" "Helmets" "Gloves"
 	SetFontSize 22
-	SetBorderColor 0 226 0
+	SetBorderColor 160 160 160
 #########################################
 #########################################
 Show
 	Sockets = 3
 	Quality > 10
 	ItemLevel < 26
-	SetBackgroundColor 0 16 92 255
-	SetBorderColor 0 226 0
+	SetBackgroundColor 48 48 48 255
+	SetBorderColor 98 98 98
 Show
 	Sockets = 3
 	ItemLevel < 26
-	SetBorderColor 0 226 0
+	SetBorderColor 98 98 98
 Show
 	Sockets = 3
 	Quality > 10
 	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands"
 	SetFontSize 22
-	SetBackgroundColor 0 16 92 255
-	SetBorderColor 0 226 0
+	SetBackgroundColor 48 48 48 255
+	SetBorderColor 98 98 98
 Show
 	Sockets = 3
 	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands"
 	SetFontSize 22
-	SetBorderColor 0 226 0
+	SetBorderColor 98 98 98
 #########################################
 #########################################Other, hide
 #########################################
@@ -270,8 +265,16 @@ Show
 	Class Gem
 	Quality > 0
 	SetFontSize 38
+	SetTextColor 128 226 128
+	SetBackgroundColor 32 32 32 255
+	PlayAlertSound 5 300
+	PlayEffect Blue Temp
+Show 
+	Class Gem
+	Quality > 10
+	SetFontSize 38
 	SetTextColor 0 226 0
-	SetBorderColor 0 255 255
+	SetBackgroundColor 32 32 32 255
 	PlayAlertSound 5 300
 	PlayEffect Blue Temp
 #########################################
@@ -283,14 +286,14 @@ Show
 Hide
 	Class "Rings" "Amulet" "Belts"
 	SetFontSize 22
+	SetBackgroundColor 192 0 0 255
 #########################################flasks
 #########################################
 Show
 	Class Flasks
 	Quality > 0
 	ItemLevel < 36
-	SetBackgroundColor 96 0 96 255
-	SetBorderColor 0 255 255
+	SetBackgroundColor 160 0 96 255
 Show
 	Class Flasks
 	ItemLevel < 36
@@ -299,8 +302,7 @@ Show
 	Class Flasks
 	Rarity Magic
 	Quality > 0
-	SetBackgroundColor 96 0 96 255
-	SetBorderColor 0 255 255
+	SetBackgroundColor 160 0 96 255
 Show
 	Class Flasks
 	Rarity Magic
@@ -308,12 +310,13 @@ Show
 Hide
 	Class Flasks
 	SetFontSize 22
+	SetBackgroundColor 96 0 96 255
 #########################################rare
 #########################################
 Show
     Rarity Rare
 	Quality > 10
-	SetBorderColor 0 255 255
+	SetBackgroundColor 48 48 48 255
 Show
     Rarity Rare
 #########################################quality
@@ -321,7 +324,7 @@ Show
 Show
 	Quality > 10
 	SetFontSize 22
-	SetBorderColor 0 255 255
+	SetBackgroundColor 48 48 48 255
 #########################################
 #########################################trash 1
 #########################################

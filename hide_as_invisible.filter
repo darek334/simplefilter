@@ -59,7 +59,7 @@ Show
     PlayAlertSound 5 300
 	MinimapIcon 1 Green Circle
 Show
-    HasExplicitMod "Veiled" ""
+    HasExplicitMod "Veiled"
     SetFontSize 38
     SetBackgroundColor 0 192 0 255
     PlayAlertSound 5 300

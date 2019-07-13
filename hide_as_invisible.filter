@@ -3,6 +3,7 @@
 Show
 	Class Quest
 	SetFontSize 38
+	SetTextColor 0 0 0
 	SetBackgroundColor 255 255 255 255
 	MinimapIcon 0 White Star
 	PlayEffect White
@@ -12,6 +13,7 @@ Show
 Show
 	Rarity Unique
 	SetFontSize 38
+	SetTextColor 0 0 0
 	SetBackgroundColor 0 250 0
 	PlayEffect Green Temp
 	PlayAlertSound 6 300
@@ -22,7 +24,7 @@ Show
 Show
 	Class Abyss Incursion Delve Leaguestone Labyrinth Pantheon Incubator
 	SetFontSize 38
-	SetBackgroundColor 255 128 0
+	SetBackgroundColor 224 64 0 # 224 64 0
 	PlayEffect Yellow Temp
 	PlayAlertSound 6 300
 	MinimapIcon 1 Brown Circle
@@ -30,7 +32,7 @@ Show
 	Class Currency "Map Fragments"
 	BaseType "Prophecy" "Fossil" "Silver Coin" "Essence" "Splinter" "Emblem" "Perandus Coin" "Vial of " "Blessing of " "Bestiary Orb" "Remnant of Corruption"
 	SetFontSize 38
-	SetBackgroundColor 255 128 0
+	SetBackgroundColor 224 64 0
 	PlayEffect Yellow Temp
 	PlayAlertSound 6 300
 	MinimapIcon 1 Brown Circle
@@ -166,27 +168,27 @@ Show
 	SocketGroup RGB
 	ItemLevel < 41
 	SetBackgroundColor 0 32 64 255
-	SetBorderColor 0 64 160 # 255 160 0
+	SetBorderColor 0 128 160 # 255 160 0
 Show
 	LinkedSockets = 3
 	ItemLevel < 41
-	SetBorderColor 0 64 160 # 255 160 0
+	SetBorderColor 0 128 160 # 255 160 0
 Show
 	LinkedSockets = 3
 	SocketGroup RGB
 	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands"
 	SetBackgroundColor 0 32 64 255
-	SetBorderColor 0 64 160 # 255 160 0
+	SetBorderColor 0 128 160 # 255 160 0
 Show
 	LinkedSockets = 3
 	SocketGroup RGB
 	SetFontSize 22
 	SetBackgroundColor 0 32 64 255
-	SetBorderColor 0 64 160 # 255 160 0
+	SetBorderColor 0 128 160 # 255 160 0
 Show
 	LinkedSockets = 3
 	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands"
-	SetBorderColor 0 64 160 # 255 160 0
+	SetBorderColor 0 128 160 # 255 160 0
 #########################################
 #########################################Sockets
 #########################################

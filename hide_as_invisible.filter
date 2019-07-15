@@ -37,6 +37,12 @@ Show
 	PlayAlertSound 6 300
 	MinimapIcon 1 Brown Circle
 Show
+	Corrupted True
+	SetFontSize 38
+	SetBackgroundColor 0 192 0 255
+	PlayAlertSound 5 300
+	MinimapIcon 1 Green Circle
+Show
 	SynthesisedItem True
 	SetFontSize 38
 	SetBackgroundColor 0 192 0 255

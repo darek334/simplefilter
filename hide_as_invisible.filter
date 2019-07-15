@@ -1,13 +1,13 @@
-#########################################simplefilter 14072019
+#########################################simplefilter 15072019
 # Shows all leagues currency, items, any currerncy, uniques, socket grup, socket linked, maps, fragments, quality gem and items with dynamical level, most original colors is save. Rest is Invisible.
 Show
 	Class Quest
 	SetFontSize 38
 	SetTextColor 0 0 0
 	SetBackgroundColor 255 255 255 255
-	MinimapIcon 0 White Star
 	PlayEffect White
 	PlayAlertSound 5 300
+	MinimapIcon 0 White Star
 #########################################
 #########################################
 Show
@@ -29,7 +29,7 @@ Show
 	PlayAlertSound 6 300
 	MinimapIcon 1 Brown Circle
 Show
-	Class Currency "Map Fragments"
+	Class Currency
 	BaseType "Prophecy" "Fossil" "Silver Coin" "Essence" "Splinter" "Emblem" "Perandus Coin" "Vial of " "Blessing of " "Bestiary Orb" "Remnant of Corruption"
 	SetFontSize 38
 	SetBackgroundColor 224 64 0
@@ -45,39 +45,48 @@ Show
 Show
 	SynthesisedItem True
 	SetFontSize 38
-	SetBackgroundColor 0 192 0 255
+	SetBackgroundColor 0 160 0 255
 	PlayAlertSound 5 300
 	MinimapIcon 1 Green Circle
 Show
 	FracturedItem True
 	SetFontSize 38
-	SetBackgroundColor 0 192 0 255
+	SetBackgroundColor 0 160 0 255
 	PlayAlertSound 5 300
 	MinimapIcon 1 Green Circle
 Show
 	ElderItem True
 	SetFontSize 38
-	SetBackgroundColor 0 192 0 255
+	SetBackgroundColor 0 160 0 255
 	PlayAlertSound 5 300
 	MinimapIcon 1 Green Circle
 Show
 	ShaperItem True
 	SetFontSize 38
-	SetBackgroundColor 0 192 0 255
+	SetBackgroundColor 0 160 0 255
 	PlayAlertSound 5 300
 	MinimapIcon 1 Green Circle
 Show
 	HasExplicitMod "Veiled"
 	SetFontSize 38
-	SetBackgroundColor 0 192 0 255
+	SetBackgroundColor 0 160 0 255
 	PlayAlertSound 5 300
 	MinimapIcon 1 Green Circle
 Show
 	AnyEnchantment True
 	SetFontSize 38
-	SetBackgroundColor 0 192 0 255
+	SetBackgroundColor 0 160 0 255
 	PlayAlertSound 5 300
 	MinimapIcon 1 Green Circle
+#########################################
+#########################################Map Jewel
+#########################################
+Show
+	Class Maps "Map Items" "Map Fragments" Jewel "Divination Card" "Fishing Rods" Piece Hideout Microtransactions
+	SetFontSize 38
+	SetTextColor 0 32 32
+	SetBackgroundColor 0 160 255 255
+	PlayAlertSound 5 300
 #########################################
 #########################################Currency
 #########################################
@@ -102,15 +111,6 @@ Show
 	SetTextColor 0 32 32
 	SetBackgroundColor 0 160 255 255
 	PlayAlertSound 5 300 # 12
-#########################################
-#########################################Map Jewel
-#########################################
-Show
-	Class Maps Jewel "Divination Card" "Fishing Rods" Piece Hideout Microtransactions
-	SetFontSize 38
-	SetTextColor 0 32 32
-	SetBackgroundColor 0 160 255 255
-	PlayAlertSound 5 300
 #########################################
 #########################################LinkedSockets
 #########################################

@@ -39,7 +39,7 @@ Show
 Show
 	Corrupted True
 	SetFontSize 38
-	SetBackgroundColor 0 192 0 255
+	SetBackgroundColor 0 160 0 255
 	PlayAlertSound 5 300
 	MinimapIcon 1 Green Circle
 Show
@@ -202,7 +202,7 @@ Show
 	Sockets > 4
 	Quality > 10
 	ItemLevel < 71
-	SetBackgroundColor 48 48 48 255
+	SetBackgroundColor 64 64 64 255
 	SetBorderColor 255 255 255
 Show
 	Sockets > 4
@@ -212,7 +212,7 @@ Show
 	Sockets > 4
 	Quality > 10
 	SetFontSize 22
-	SetBackgroundColor 48 48 48 255
+	SetBackgroundColor 64 64 64 255
 	SetBorderColor 255 255 255
 Show
 	Sockets > 4
@@ -224,7 +224,7 @@ Show
 	Sockets = 4
 	Quality > 10
 	ItemLevel < 36
-	SetBackgroundColor 48 48 48 255
+	SetBackgroundColor 64 64 64 255
 	SetBorderColor 160 160 160
 Show
 	Sockets = 4
@@ -235,7 +235,7 @@ Show
 	Quality > 10
 	Class "Boots" "Helmets" "Gloves"
 	SetFontSize 22
-	SetBackgroundColor 48 48 48 255
+	SetBackgroundColor 64 64 64 255
 	SetBorderColor 160 160 160
 Show
 	Sockets = 4
@@ -248,7 +248,7 @@ Show
 	Sockets = 3
 	Quality > 10
 	ItemLevel < 26
-	SetBackgroundColor 48 48 48 255
+	SetBackgroundColor 64 64 64 255
 	SetBorderColor 98 98 98
 Show
 	Sockets = 3
@@ -259,7 +259,7 @@ Show
 	Quality > 10
 	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands"
 	SetFontSize 22
-	SetBackgroundColor 48 48 48 255
+	SetBackgroundColor 64 64 64 255
 	SetBorderColor 98 98 98
 Show
 	Sockets = 3
@@ -324,7 +324,7 @@ Hide
 Show
 	Rarity Rare
 	Quality > 10
-	SetBackgroundColor 48 48 48 255
+	SetBackgroundColor 64 64 64 255
 Show
 	Rarity Rare
 #########################################quality
@@ -332,7 +332,7 @@ Show
 Show
 	Quality > 10
 	SetFontSize 22
-	SetBackgroundColor 48 48 48 255
+	SetBackgroundColor 64 64 64 255
 #########################################
 #########################################trash 1
 #########################################

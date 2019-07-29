@@ -1,4 +1,4 @@
-#########################################simplefilter 23072019
+#########################################simplefilter 29072019
 # Shows all leagues currency, items, any currerncy, uniques, socket grup, socket linked, maps, fragments, quality gem and items with dynamical level, most original colors is save. Rest is Invisible.
 #########################################
 #########################################Quest
@@ -164,7 +164,7 @@ Show
 	LinkedSockets > 4
 	SocketGroup RGB
 	SetFontSize 38
-	SetBackgroundColor 0 32 64 255
+	SetBackgroundColor 0 32 96 255
 	SetBorderColor 0 255 0
 	PlayAlertSound 6 300
 	PlayEffect Green Temp
@@ -183,7 +183,7 @@ Show
 	SocketGroup RGB
 	ItemLevel < 56
 	SetFontSize 38
-	SetBackgroundColor 0 32 64 255
+	SetBackgroundColor 0 32 96 255
 	SetBorderColor 255 255 0
 	PlayAlertSound 1 300 # 12
 Show
@@ -197,7 +197,7 @@ Show
 	SocketGroup RGB
 	Class "Boots" "Helmets" "Gloves"
 	SetFontSize 38
-	SetBackgroundColor 0 32 64 255
+	SetBackgroundColor 0 32 96 255
 	SetBorderColor 255 255 0
 	PlayAlertSound 1 300 # 12
 Show
@@ -212,8 +212,9 @@ Show
 	LinkedSockets = 3
 	SocketGroup RGB
 	ItemLevel < 41
-	SetBackgroundColor 0 32 64 255
+	SetBackgroundColor 0 32 96 255
 	SetBorderColor 0 128 160 # 255 160 0
+	PlayAlertSound 1 300 # 12
 Show
 	LinkedSockets = 3
 	ItemLevel < 41
@@ -222,27 +223,29 @@ Show
 	LinkedSockets = 3
 	SocketGroup RGB
 	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands"
-	SetBackgroundColor 0 32 64 255
+	SetBackgroundColor 0 32 96 255
 	SetBorderColor 0 128 160 # 255 160 0
+	PlayAlertSound 1 300 # 12
 Show
 	LinkedSockets = 3
 	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands"
 	SetBorderColor 0 128 160 # 255 160 0
 #########################################
+#########################################RGB
 #########################################
 Show
 	SocketGroup RGB
 	Sockets < 5
 	LinkedSockets = 4
 	SetFontSize 22
-	SetBackgroundColor 0 32 64 255
+	SetBackgroundColor 0 32 96 255
 	SetBorderColor 255 255 0
 	PlayAlertSound 1 300 # 12
 Show
 	SocketGroup RGB
 	Sockets < 5
 	SetFontSize 22
-	SetBackgroundColor 0 32 64 255
+	SetBackgroundColor 0 32 96 255
 	SetBorderColor 0 128 160 # 255 160 0
 	PlayAlertSound 1 300 # 12
 #########################################
@@ -333,24 +336,9 @@ Hide
 Show
 	Class Flasks
 	Quality > 0
-	ItemLevel < 36
 	SetBackgroundColor 160 0 96 255
 Show
 	Class Flasks
-	ItemLevel < 36
-	SetBackgroundColor 96 0 96 255
-Show
-	Class Flasks
-	Rarity Magic
-	Quality > 0
-	SetBackgroundColor 160 0 96 255
-Show
-	Class Flasks
-	Rarity Magic
-	SetBackgroundColor 96 0 96 255
-Hide
-	Class Flasks
-	SetFontSize 22
 	SetBackgroundColor 96 0 96 255
 #########################################
 #########################################rare

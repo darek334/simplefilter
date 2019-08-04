@@ -1,4 +1,4 @@
-#########################################simplefilter 29072019
+#########################################simplefilter 04082019
 # Shows all leagues currency, items, any currerncy, uniques, socket grup, socket linked, maps, fragments, quality gem and items with dynamical level, most original colors is save. Rest is Invisible.
 #########################################
 #########################################Quest
@@ -137,7 +137,7 @@ Show
 #########################################
 Show
 	Class Currency
-	BaseType "Armourer's Scrap" "Blacksmith's Whetstone" "Chromatic Orb" "Portal Scroll" "Scroll of Wisdom" "Alteration Shard" "Alchemy Shard" "Scroll Fragment" "Transmutation Shard"
+	BaseType "Armourer's Scrap" "Blacksmith's Whetstone" "Chromatic Orb" "Portal Scroll" "Scroll of Wisdom" "Alteration Shard" "Alchemy Shard" "Scroll Fragment" "Transmutation Shard" "Orb of Transmutation" "Orb of Alteration" "Orb of Augmentation"
 	SetFontSize 38
 	SetTextColor 0 0 0
 	SetBackgroundColor 0 64 192 255
@@ -343,10 +343,6 @@ Show
 #########################################
 #########################################rare
 #########################################
-Show
-	Rarity Rare
-	Quality > 10
-	SetBackgroundColor 64 64 64 255
 Show
 	Rarity Rare
 #########################################

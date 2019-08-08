@@ -37,23 +37,23 @@ Show
 	Class Gem
 	Quality > 0
 	SetFontSize 38
-	SetTextColor 128 226 128
+	SetTextColor 64 226 64
 	SetBackgroundColor 32 32 32 255
 	PlayAlertSound 5 300
 	PlayEffect Blue Temp
 Show 
 	Class Gem
 	Corrupted True
-	SetTextColor 0 226 0
+	SetTextColor 128 226 128
 	SetBackgroundColor 64 0 0 255
 	PlayAlertSound 5 300
 	PlayEffect Blue Temp
 Show 
 	Class "Support Skill Gems"
-	SetTextColor 0 226 0
-Hide 
+	SetTextColor 128 226 128
+Show 
 	Class Gem
-	SetTextColor 0 226 0
+	SetTextColor 128 226 128
 #########################################
 #########################################Map
 #########################################
@@ -138,7 +138,6 @@ Show
 Show
 	Class Currency
 	BaseType "Armourer's Scrap" "Blacksmith's Whetstone" "Chromatic Orb" "Portal Scroll" "Scroll of Wisdom" "Alteration Shard" "Alchemy Shard" "Scroll Fragment" "Transmutation Shard" "Orb of Transmutation" "Orb of Alteration" "Orb of Augmentation"
-	SetFontSize 38
 	SetTextColor 0 0 0
 	SetBackgroundColor 0 64 192 255
 	PlayAlertSound 1 300 # 12
@@ -324,11 +323,6 @@ Show
 #########################################
 Show
 	Class "Rings" "Amulet" "Belts" "Jewel"
-	Rarity Magic Rare
-	SetBackgroundColor 192 0 0 255
-Hide
-	Class "Rings" "Amulet" "Belts" "Jewel"
-	SetFontSize 22
 	SetBackgroundColor 192 0 0 255
 #########################################
 #########################################flasks

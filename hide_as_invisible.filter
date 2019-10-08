@@ -1,4 +1,4 @@
-#########################################simplefilter 16082019
+#########################################simplefilter 08102019
 # Shows all leagues currency, items, any currerncy, uniques, socket grup, socket linked, maps, fragments, quality gem and items with dynamical level, most original colors is save. Rest is Invisible.
 #########################################
 #########################################Core
@@ -35,7 +35,7 @@ Show
 	MinimapIcon 0 Yellow Circle
 Show
 	Class Currency
-	BaseType "Prophecy" "Fossil" "Silver Coin" "Essence" "Splinter" "Emblem" "Perandus Coin" "Vial of " "Blessing of " "Bestiary Orb" "Remnant of Corruption"
+	BaseType "Prophecy" "Fossil" "Silver Coin" "Essence" "Splinter" "Emblem" "Perandus Coin" "Vial of " "Blessing of " "Bestiary Orb" "Remnant of Corruption" " Oil"
 	SetFontSize 38
 	SetTextColor 0 0 0
 	SetBackgroundColor 250 250 0 255
@@ -84,40 +84,44 @@ Show
 #########################################Gem
 #########################################
 Show 
-	Class Gem
+	Class Gem "Support Skill Gems"
 	Quality > 10
-	SetFontSize 38
 	SetTextColor 0 226 0
 	SetBackgroundColor 32 32 32 255
 	PlayAlertSound 5 300
-	PlayEffect Blue Temp
+	PlayEffect Green Temp
+	MinimapIcon 0 Green Circle
 Show 
-	Class Gem
+	Class Gem "Support Skill Gems"
 	Quality > 0
-	SetFontSize 38
 	SetTextColor 64 226 64
 	SetBackgroundColor 32 32 32 255
 	PlayAlertSound 5 300
-	PlayEffect Blue Temp
+	PlayEffect Green Temp
+	MinimapIcon 0 Green Circle
 Show 
-	Class Gem
+	Class Gem "Support Skill Gems"
+	Quality > 10
 	Corrupted True
-	SetTextColor 128 226 128
+	SetTextColor 0 226 0
 	SetBackgroundColor 64 0 0 255
-	PlayAlertSound 5 300
-	PlayEffect Blue Temp
 Show 
-	Class Gem
-	SetTextColor 128 226 128
+	Class Gem "Support Skill Gems"
+	Corrupted True
+	SetTextColor 160 226 160
+	SetBackgroundColor 64 0 0 255
 Show 
-	Class "Support Skill Gems"
-	SetTextColor 128 226 128
+	Class Gem "Support Skill Gems"
+	SetTextColor 160 226 160
 #########################################
 #########################################jewelry
 #########################################
 Show
-	Class "Rings" "Amulet" "Belts" "Jewel"
+	Class "Rings" "Amulet" "Belts"
 	SetBackgroundColor 192 0 0 255
+Show
+	Class "Jewel"
+	SetBackgroundColor 225 32 32 255
 #########################################
 #########################################flasks
 #########################################
@@ -130,7 +134,7 @@ Show
 	SetBackgroundColor 96 0 96 255
 #########################################
 #########################################LinkedSockets
-#########################################possibility of 6 socket min 50 itemlevel
+#########################################possibility of 5 socket min 35 itemlevel, possibility of 6 socket min 50 itemlevel
 Show
 	LinkedSockets > 4
 	SocketGroup RGB
@@ -148,7 +152,7 @@ Show
 	PlayEffect Green Temp
 	MinimapIcon 0 Green Hexagon
 #########################################
-#########################################possibility of 5 socket min 35 itemlevel, max item class of 4 "Boots" "Helmets" "Gloves"
+#########################################possibility of 4 socket min 25 itemlevel, max item class of 4 "Boots" "Helmets" "Gloves"
 Show
 	LinkedSockets = 4
 	SocketGroup RGB
@@ -159,12 +163,11 @@ Show
 	LinkedSockets = 4
 	Class "Boots" "Helmets" "Gloves"
 	SetBorderColor 255 255 0
-	PlayAlertSound 1 300 # 12
 Show
 	LinkedSockets = 4
 	SetBorderColor 255 255 0
 #########################################
-#########################################possibility of 4 socket min 25 itemlevel, max item class of 3 "Claws" "One Hand" "Daggers" "Sceptres" "Wands" "Shields"
+#########################################max item class of 3 "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
 Show
 	LinkedSockets = 3
 	SocketGroup RGB
@@ -173,15 +176,15 @@ Show
 	PlayAlertSound 1 300 # 12
 Show
 	LinkedSockets = 3
-	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands" "Shields"
+	Class "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
 	SetBorderColor 0 128 160 # 255 160 0
 Show
 	LinkedSockets = 3
-	ItemLevel < 46
+	ItemLevel < 26
 	SetBorderColor 0 128 160 # 255 160 0
 #########################################
 #########################################Sockets
-#########################################
+#########################################possibility of 5 socket min 35 itemlevel, possibility of 6 socket min 50 itemlevel
 Show
 	Sockets > 4
 	Quality > 10
@@ -191,7 +194,7 @@ Show
 	Sockets > 4
 	SetBorderColor 255 255 255
 #########################################
-#########################################possibility of 5 socket min 35 itemlevel, max item class of 4 "Boots" "Helmets" "Gloves"
+#########################################possibility of 4 socket min 25 itemlevel, max item class of 4 "Boots" "Helmets" "Gloves"
 Show
 	Sockets = 4
 	Quality > 10
@@ -201,7 +204,7 @@ Show
 	Sockets = 4
 	SetBorderColor 160 160 160
 #########################################
-#########################################possibility of 4 socket min 25 itemlevel, max item class of 3 "Claws" "One Hand" "Daggers" "Sceptres" "Wands" "Shields"
+#########################################max item class of 3 "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
 Show
 	Sockets = 3
 	Quality > 10
@@ -209,11 +212,11 @@ Show
 	SetBorderColor 98 98 98
 Show
 	Sockets = 3
-	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands" "Shields"
+	Class "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
 	SetBorderColor 98 98 98
 Show
 	Sockets = 3
-	ItemLevel < 46
+	ItemLevel < 26
 	SetBorderColor 98 98 98
 #########################################
 #########################################rare

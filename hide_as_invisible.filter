@@ -291,7 +291,14 @@ Show
 	MinimapIcon 0 Green Hexagon
 Show
 	LinkedSockets > 4
-	Quality > 0
+	Rarity Rare
+	SetBorderColor 0 255 0
+	PlayAlertSound 6 300
+	PlayEffect Green Temp
+	MinimapIcon 0 Green Hexagon
+Show
+	LinkedSockets > 4
+	Quality > 9
 	SetBackgroundColor 64 64 64
 	SetBorderColor 0 255 0
 	PlayAlertSound 6 300
@@ -365,7 +372,7 @@ Show
 Show
 	LinkedSockets = 4
 	Class "Boots" "Helmets" "Gloves"
-	Quality > 0
+	Quality > 9
 	SetBackgroundColor 64 64 64
 	SetBorderColor 255 255 0
 Show
@@ -375,7 +382,7 @@ Show
 Show
 	LinkedSockets = 4
 	ItemLevel < 61
-	Quality > 0
+	Quality > 9
 	SetBackgroundColor 64 64 64
 	SetBorderColor 255 255 0
 Show
@@ -384,7 +391,7 @@ Show
 	SetBorderColor 255 255 0
 Show
 	LinkedSockets = 4
-	Quality > 0
+	Quality > 9
 	SetFontSize 22
 	SetBackgroundColor 64 64 64
 	SetBorderColor 255 255 0
@@ -450,7 +457,7 @@ Show
 Show
 	LinkedSockets = 3
 	Class "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
-	Quality > 0
+	Quality > 9
 	SetBackgroundColor 64 64 64
 	SetBorderColor 0 128 160
 Show
@@ -460,7 +467,7 @@ Show
 Show
 	LinkedSockets = 3
 	ItemLevel < 46
-	Quality > 0
+	Quality > 9
 	SetBackgroundColor 64 64 64
 	SetBorderColor 0 128 160
 Show
@@ -469,7 +476,7 @@ Show
 	SetBorderColor 0 128 160
 Show
 	LinkedSockets = 3
-	Quality > 0
+	Quality > 9
 	SetFontSize 22
 	SetBackgroundColor 64 64 64
 	SetBorderColor 0 128 160
@@ -525,7 +532,11 @@ Show
 	SetBorderColor 255 255 255
 Show
 	Sockets > 4
-	Quality > 0
+	Rarity Rare
+	SetBorderColor 255 255 255
+Show
+	Sockets > 4
+	Quality > 9
 	SetBackgroundColor 64 64 64
 	SetBorderColor 255 255 255
 Show
@@ -587,7 +598,7 @@ Show
 Show
 	Sockets = 4
 	Class "Boots" "Helmets" "Gloves"
-	Quality > 0
+	Quality > 9
 	SetBackgroundColor 64 64 64
 	SetBorderColor 160 160 160
 Show
@@ -597,7 +608,7 @@ Show
 Show
 	Sockets = 4
 	ItemLevel < 61
-	Quality > 0
+	Quality > 9
 	SetBackgroundColor 64 64 64
 	SetBorderColor 160 160 160
 Show
@@ -606,7 +617,7 @@ Show
 	SetBorderColor 160 160 160
 Show
 	Sockets = 4
-	Quality > 0
+	Quality > 9
 	SetFontSize 22
 	SetBackgroundColor 64 64 64
 	SetBorderColor 160 160 160
@@ -666,7 +677,7 @@ Show
 Show
 	Sockets = 3
 	Class "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
-	Quality > 0
+	Quality > 9
 	SetBackgroundColor 64 64 64
 	SetBorderColor 98 98 98
 Show
@@ -676,7 +687,7 @@ Show
 Show
 	Sockets = 3
 	ItemLevel < 46
-	Quality > 0
+	Quality > 9
 	SetBackgroundColor 64 64 64
 	SetBorderColor 98 98 98
 Show
@@ -685,7 +696,7 @@ Show
 	SetBorderColor 98 98 98
 Show
 	Sockets = 3
-	Quality > 0
+	Quality > 9
 	SetFontSize 22
 	SetBackgroundColor 64 64 64
 	SetBorderColor 98 98 98
@@ -728,12 +739,12 @@ Show
 	SetBackgroundColor 32 0 0
 Show
 	Rarity Rare
-	Quality > 0
+	Quality > 9
 	SetBackgroundColor 64 64 64
 Show
 	Rarity Rare
 Show
-	Quality > 0
+	Quality > 9
 	SetFontSize 22
 	SetBackgroundColor 64 64 64
 #########################################

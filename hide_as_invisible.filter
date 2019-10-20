@@ -1,4 +1,4 @@
-#########################################simplefilter 08102019
+#########################################simplefilter 20102019
 # Shows all leagues currency, items, any currerncy, uniques, socket grup, socket linked, maps, fragments, quality gem and items with dynamical level, most original colors is save. Rest is Invisible.
 #########################################
 #########################################Core
@@ -7,16 +7,72 @@
 Show
 	Class Quest
 	SetTextColor 0 0 0
-	SetBackgroundColor 255 255 255 255
+	SetBackgroundColor 255 255 255
 	PlayEffect White
 	PlayAlertSound 5 300
 	MinimapIcon 0 White Star
 #########################################
 #########################################uniques
-#########################################
+######################################### Corrupted True ShaperItem True ElderItem True FracturedItem True SynthesisedItem True AnyEnchantment True HasExplicitMod "Veiled"
 Show
 	Rarity Unique
-	SetFontSize 38
+	HasExplicitMod "Veiled"
+	SetTextColor 64 64 0
+	SetBackgroundColor 0 250 0
+	PlayEffect Green Temp
+	PlayAlertSound 6 300
+	MinimapIcon 0 Green Diamond
+Show
+	Rarity Unique
+	AnyEnchantment True
+	SetTextColor 64 64 0
+	SetBackgroundColor 0 250 0
+	PlayEffect Green Temp
+	PlayAlertSound 6 300
+	MinimapIcon 0 Green Diamond
+Show
+	Rarity Unique
+	SynthesisedItem True
+	SetTextColor 64 64 0
+	SetBackgroundColor 0 250 0
+	PlayEffect Green Temp
+	PlayAlertSound 6 300
+	MinimapIcon 0 Green Diamond
+Show
+	Rarity Unique
+	FracturedItem True
+	SynthesisedItem True
+	SetTextColor 64 64 0
+	SetBackgroundColor 0 250 0
+	PlayEffect Green Temp
+	PlayAlertSound 6 300
+	MinimapIcon 0 Green Diamond
+Show
+	Rarity Unique
+	ElderItem True
+	SetTextColor 64 32 0
+	SetBackgroundColor 0 250 0
+	PlayEffect Green Temp
+	PlayAlertSound 6 300
+	MinimapIcon 0 Green Diamond
+Show
+	Rarity Unique
+	ShaperItem True
+	SetTextColor 64 32 0
+	SetBackgroundColor 0 250 0
+	PlayEffect Green Temp
+	PlayAlertSound 6 300
+	MinimapIcon 0 Green Diamond
+Show
+	Rarity Unique
+	Corrupted True
+	SetTextColor 32 0 0
+	SetBackgroundColor 0 250 0
+	PlayEffect Green Temp
+	PlayAlertSound 6 300
+	MinimapIcon 0 Green Diamond
+Show
+	Rarity Unique
 	SetTextColor 0 0 0
 	SetBackgroundColor 0 250 0
 	PlayEffect Green Temp
@@ -27,126 +83,222 @@ Show
 #########################################No rules: Anarchy, Onslaught, Domination, Nemesis, Ambush, Invasion, Rampage, Beyond, Torment, Bloodlines, Warbands, Tempest, Talisman, Perandus, Prophecy, Essence, Breach, Legacy, Harbinger, Bestiary Betrayal Synthesis Legion
 Show
 	Class Abyss Incursion Delve Leaguestone Labyrinth Pantheon Incubator
-	SetFontSize 38
 	SetTextColor 0 0 0
-	SetBackgroundColor 250 250 0 255
+	SetBackgroundColor 250 250 0
 	PlayEffect Yellow Temp
 	PlayAlertSound 6 300
 	MinimapIcon 0 Yellow Circle
 Show
 	Class Currency
 	BaseType "Prophecy" "Fossil" "Silver Coin" "Essence" "Splinter" "Emblem" "Perandus Coin" "Vial of " "Blessing of " "Bestiary Orb" "Remnant of Corruption" " Oil"
-	SetFontSize 38
 	SetTextColor 0 0 0
-	SetBackgroundColor 250 250 0 255
+	SetBackgroundColor 250 250 0
 	PlayEffect Yellow Temp
 	PlayAlertSound 6 300
 	MinimapIcon 0 Yellow Circle
 #########################################
-#########################################Rest
 #########################################Currency
 #########################################
 Show
 	Class Currency
 	BaseType "Armourer's Scrap" "Blacksmith's Whetstone" "Chromatic Orb" "Portal Scroll" "Scroll of Wisdom" "Alteration Shard" "Alchemy Shard" "Scroll Fragment" "Transmutation Shard" "Orb of Transmutation" "Orb of Alteration" "Orb of Augmentation"
 	SetTextColor 0 0 0
-	SetBackgroundColor 0 64 192 255
-	PlayAlertSound 1 300 # 12
+	SetBackgroundColor 0 64 192
+	PlayAlertSound 1 200 # 12
 Show
 	Class Currency
 	BaseType "Chaos" "Alchemy" "Chance" "Alteration" "Mirror of Kalandra" "Regal" "Regret" "Fusing" "Exalted" "Jeweller" "Divine" "Blessed" "Scouring" "Vaal Orb" "Essence" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Annulment" "Annulment Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Mirror Shard"
-	SetFontSize 38
 	SetTextColor 0 32 32
-	SetBackgroundColor 0 255 255 255
+	SetBackgroundColor 0 255 255
 	PlayAlertSound 6 300
 	PlayEffect Blue Temp
 	MinimapIcon 0 Blue Diamond
 Show
 	Class Currency
 	SetTextColor 0 32 32
-	SetBackgroundColor 0 160 255 255
+	SetBackgroundColor 0 160 255
 	PlayAlertSound 5 300 # 12
 #########################################
 #########################################Maps
 #########################################
 Show
 	Class Maps "Map Fragments" "Map Items"
-	SetBackgroundColor 255 64 0 255
+	SetBackgroundColor 192 64 0
 	PlayAlertSound 5 300
 #########################################
 #########################################Divination Card, Special
 #########################################
 Show
 	Class "Divination Card" "Fishing Rods" Piece Hideout Microtransactions
-	SetBackgroundColor 192 64 0 255
+	SetBackgroundColor 160 64 0
 	PlayAlertSound 5 300
 #########################################
 #########################################Gem
 #########################################
 Show 
 	Class Gem "Support Skill Gems"
-	Quality > 10
-	SetTextColor 0 226 0
-	SetBackgroundColor 32 32 32 255
+	Quality > 0
+	Corrupted True
+	SetTextColor 0 250 0
+	SetBackgroundColor 32 0 0
 	PlayAlertSound 5 300
 	PlayEffect Green Temp
 	MinimapIcon 0 Green Circle
 Show 
 	Class Gem "Support Skill Gems"
 	Quality > 0
-	SetTextColor 64 226 64
-	SetBackgroundColor 32 32 32 255
+	SetTextColor 0 250 0
 	PlayAlertSound 5 300
 	PlayEffect Green Temp
 	MinimapIcon 0 Green Circle
 Show 
 	Class Gem "Support Skill Gems"
-	Quality > 10
 	Corrupted True
-	SetTextColor 0 226 0
-	SetBackgroundColor 64 0 0 255
+	SetTextColor 128 250 128
+	SetBackgroundColor 32 0 0
 Show 
 	Class Gem "Support Skill Gems"
-	Corrupted True
-	SetTextColor 160 226 160
-	SetBackgroundColor 64 0 0 255
-Show 
-	Class Gem "Support Skill Gems"
-	SetTextColor 160 226 160
+	SetTextColor 128 250 128
 #########################################
 #########################################jewelry
 #########################################
 Show
-	Class "Rings" "Amulet" "Belts"
-	SetBackgroundColor 192 0 0 255
+	Class "Rings" "Amulet" "Belts" "Jewel"
+	HasExplicitMod "Veiled"
+	SetBackgroundColor 192 0 0
+	SetBorderColor 0 128 0
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
 Show
-	Class "Jewel"
-	SetBackgroundColor 225 32 32 255
+	Class "Rings" "Amulet" "Belts" "Jewel"
+	AnyEnchantment True
+	SetBackgroundColor 192 0 0
+	SetBorderColor 0 128 0
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Class "Rings" "Amulet" "Belts" "Jewel"
+	SynthesisedItem True
+	SetBackgroundColor 192 0 0
+	SetBorderColor 0 128 0
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Class "Rings" "Amulet" "Belts" "Jewel"
+	FracturedItem True
+	SetBackgroundColor 192 0 0
+	SetBorderColor 0 128 0
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Class "Rings" "Amulet" "Belts" "Jewel"
+	ElderItem True
+	SetBackgroundColor 192 0 0
+	SetBorderColor 0 64 0
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Class "Rings" "Amulet" "Belts" "Jewel"
+	ShaperItem True
+	SetBackgroundColor 192 0 0
+	SetBorderColor 0 64 0
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Class "Rings" "Amulet" "Belts" "Jewel"
+	Corrupted True
+	SetBackgroundColor 192 0 0
+	SetBorderColor 64 0 0
+Show
+	Class "Rings" "Amulet" "Belts" "Jewel"
+	SetBackgroundColor 192 0 0
 #########################################
 #########################################flasks
 #########################################
 Show
 	Class Flasks
 	Quality > 0
-	SetBackgroundColor 160 0 96 255
+	SetBackgroundColor 160 0 160
 Show
 	Class Flasks
-	SetBackgroundColor 96 0 96 255
+	SetBackgroundColor 92 0 92
 #########################################
 #########################################LinkedSockets
 #########################################possibility of 5 socket min 35 itemlevel, possibility of 6 socket min 50 itemlevel
 Show
 	LinkedSockets > 4
-	SocketGroup RGB
-	SetFontSize 38
-	SetBackgroundColor 0 32 96 255
+	HasExplicitMod "Veiled"
+	SetBackgroundColor 0 64 0
 	SetBorderColor 0 255 0
 	PlayAlertSound 6 300
 	PlayEffect Green Temp
 	MinimapIcon 0 Green Hexagon
 Show
 	LinkedSockets > 4
-	SetFontSize 38
+	AnyEnchantment True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 0 255 0
+	PlayAlertSound 6 300
+	PlayEffect Green Temp
+	MinimapIcon 0 Green Hexagon
+Show
+	LinkedSockets > 4
+	SynthesisedItem True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 0 255 0
+	PlayAlertSound 6 300
+	PlayEffect Green Temp
+	MinimapIcon 0 Green Hexagon
+Show
+	LinkedSockets > 4
+	FracturedItem True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 0 255 0
+	PlayAlertSound 6 300
+	PlayEffect Green Temp
+	MinimapIcon 0 Green Hexagon
+Show
+	LinkedSockets > 4
+	ElderItem True
+	SetBackgroundColor 0 32 0
+	SetBorderColor 0 255 0
+	PlayAlertSound 6 300
+	PlayEffect Green Temp
+	MinimapIcon 0 Green Hexagon
+Show
+	LinkedSockets > 4
+	ShaperItem True
+	SetBackgroundColor 0 32 0
+	SetBorderColor 0 255 0
+	PlayAlertSound 6 300
+	PlayEffect Green Temp
+	MinimapIcon 0 Green Hexagon
+Show
+	LinkedSockets > 4
+	Corrupted True
+	SetBackgroundColor 32 0 0
+	SetBorderColor 0 255 0
+	PlayAlertSound 6 300
+	PlayEffect Green Temp
+	MinimapIcon 0 Green Hexagon
+Show
+	LinkedSockets > 4
+	SocketGroup RGB
+	SetBackgroundColor 0 32 96
+	SetBorderColor 0 255 0
+	PlayAlertSound 6 300
+	PlayEffect Green Temp
+	MinimapIcon 0 Green Hexagon
+Show
+	LinkedSockets > 4
+	Quality > 0
+	SetBackgroundColor 64 64 64
+	SetBorderColor 0 255 0
+	PlayAlertSound 6 300
+	PlayEffect Green Temp
+	MinimapIcon 0 Green Hexagon
+Show
+	LinkedSockets > 4
 	SetBorderColor 0 255 0
 	PlayAlertSound 6 300
 	PlayEffect Green Temp
@@ -155,40 +307,226 @@ Show
 #########################################possibility of 4 socket min 25 itemlevel, max item class of 4 "Boots" "Helmets" "Gloves"
 Show
 	LinkedSockets = 4
+	HasExplicitMod "Veiled"
+	SetBackgroundColor 0 64 0
+	SetBorderColor 255 255 0
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	LinkedSockets = 4
+	AnyEnchantment True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 255 255 0
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	LinkedSockets = 4
+	SynthesisedItem True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 255 255 0
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	LinkedSockets = 4
+	FracturedItem True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 255 255 0
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	LinkedSockets = 4
+	ElderItem True
+	SetBackgroundColor 0 32 0
+	SetBorderColor 255 255 0
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	LinkedSockets = 4
+	ShaperItem True
+	SetBackgroundColor 0 32 0
+	SetBorderColor 255 255 0
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	LinkedSockets = 4
+	Corrupted True
+	SetBackgroundColor 32 0 0
+	SetBorderColor 255 255 0
+Show
+	LinkedSockets = 4
 	SocketGroup RGB
-	SetBackgroundColor 0 32 96 255
+	SetBackgroundColor 0 32 96
 	SetBorderColor 255 255 0
 	PlayAlertSound 1 300 # 12
+Show
+	LinkedSockets = 4
+	Rarity Rare
+	SetBorderColor 255 255 0
+Show
+	LinkedSockets = 4
+	Class "Boots" "Helmets" "Gloves"
+	Quality > 0
+	SetBackgroundColor 64 64 64
+	SetBorderColor 255 255 0
 Show
 	LinkedSockets = 4
 	Class "Boots" "Helmets" "Gloves"
 	SetBorderColor 255 255 0
 Show
 	LinkedSockets = 4
+	ItemLevel < 61
+	Quality > 0
+	SetBackgroundColor 64 64 64
+	SetBorderColor 255 255 0
+Show
+	LinkedSockets = 4
+	ItemLevel < 61
+	SetBorderColor 255 255 0
+Show
+	LinkedSockets = 4
+	Quality > 0
+	SetFontSize 22
+	SetBackgroundColor 64 64 64
 	SetBorderColor 255 255 0
 #########################################
 #########################################max item class of 3 "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
 Show
 	LinkedSockets = 3
+	HasExplicitMod "Veiled"
+	SetBackgroundColor 0 64 0
+	SetBorderColor 0 128 160
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	LinkedSockets = 3
+	AnyEnchantment True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 0 128 160
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	LinkedSockets = 3
+	SynthesisedItem True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 0 128 160
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	LinkedSockets = 3
+	FracturedItem True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 0 128 160
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	LinkedSockets = 3
+	ElderItem True
+	SetBackgroundColor 0 32 0
+	SetBorderColor 0 128 160
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	LinkedSockets = 3
+	ShaperItem True
+	SetBackgroundColor 0 32 0
+	SetBorderColor 0 128 160
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	LinkedSockets = 3
+	Corrupted True
+	SetBackgroundColor 32 0 0
+	SetBorderColor 0 128 160
+Show
+	LinkedSockets = 3
 	SocketGroup RGB
-	SetBackgroundColor 0 32 96 255
-	SetBorderColor 0 128 160 # 255 160 0
+	SetBackgroundColor 0 32 96
+	SetBorderColor 0 128 160
 	PlayAlertSound 1 300 # 12
 Show
 	LinkedSockets = 3
-	Class "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
-	SetBorderColor 0 128 160 # 255 160 0
+	Rarity Rare
+	SetBorderColor 255 255 0
 Show
 	LinkedSockets = 3
-	ItemLevel < 26
-	SetBorderColor 0 128 160 # 255 160 0
+	Class "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
+	Quality > 0
+	SetBackgroundColor 64 64 64
+	SetBorderColor 0 128 160
+Show
+	LinkedSockets = 3
+	Class "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
+	SetBorderColor 0 128 160
+Show
+	LinkedSockets = 3
+	ItemLevel < 46
+	Quality > 0
+	SetBackgroundColor 64 64 64
+	SetBorderColor 0 128 160
+Show
+	LinkedSockets = 3
+	ItemLevel < 46
+	SetBorderColor 0 128 160
+Show
+	LinkedSockets = 3
+	Quality > 0
+	SetFontSize 22
+	SetBackgroundColor 64 64 64
+	SetBorderColor 0 128 160
 #########################################
 #########################################Sockets
 #########################################possibility of 5 socket min 35 itemlevel, possibility of 6 socket min 50 itemlevel
 Show
 	Sockets > 4
-	Quality > 10
-	SetBackgroundColor 64 64 64 255
+	HasExplicitMod "Veiled"
+	SetBackgroundColor 0 64 0
+	SetBorderColor 255 255 255
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets > 4
+	AnyEnchantment True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 255 255 255
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets > 4
+	SynthesisedItem True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 255 255 255
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets > 4
+	FracturedItem True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 255 255 255
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets > 4
+	ElderItem True
+	SetBackgroundColor 0 32 0
+	SetBorderColor 255 255 255
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets > 4
+	ShaperItem True
+	SetBackgroundColor 0 32 0
+	SetBorderColor 255 255 255
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets > 4
+	Corrupted True
+	SetBackgroundColor 32 0 0
+	SetBorderColor 255 255 255
+Show
+	Sockets > 4
+	Quality > 0
+	SetBackgroundColor 64 64 64
 	SetBorderColor 255 255 255
 Show
 	Sockets > 4
@@ -197,18 +535,139 @@ Show
 #########################################possibility of 4 socket min 25 itemlevel, max item class of 4 "Boots" "Helmets" "Gloves"
 Show
 	Sockets = 4
-	Quality > 10
-	SetBackgroundColor 64 64 64 255
+	HasExplicitMod "Veiled"
+	SetBackgroundColor 0 64 0
+	SetBorderColor 160 160 160
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets = 4
+	AnyEnchantment True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 160 160 160
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets = 4
+	SynthesisedItem True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 160 160 160
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets = 4
+	FracturedItem True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 160 160 160
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets = 4
+	ElderItem True
+	SetBackgroundColor 0 32 0
+	SetBorderColor 160 160 160
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets = 4
+	ShaperItem True
+	SetBackgroundColor 0 32 0
+	SetBorderColor 160 160 160
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets = 4
+	Corrupted True
+	SetBackgroundColor 32 0 0
 	SetBorderColor 160 160 160
 Show
 	Sockets = 4
+	Rarity Rare
+	SetBorderColor 160 160 160
+Show
+	Sockets = 4
+	Class "Boots" "Helmets" "Gloves"
+	Quality > 0
+	SetBackgroundColor 64 64 64
+	SetBorderColor 160 160 160
+Show
+	Sockets = 4
+	Class "Boots" "Helmets" "Gloves"
+	SetBorderColor 160 160 160
+Show
+	Sockets = 4
+	ItemLevel < 61
+	Quality > 0
+	SetBackgroundColor 64 64 64
+	SetBorderColor 160 160 160
+Show
+	Sockets = 4
+	ItemLevel < 61
+	SetBorderColor 160 160 160
+Show
+	Sockets = 4
+	Quality > 0
+	SetFontSize 22
+	SetBackgroundColor 64 64 64
 	SetBorderColor 160 160 160
 #########################################
 #########################################max item class of 3 "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
 Show
 	Sockets = 3
-	Quality > 10
-	SetBackgroundColor 64 64 64 255
+	HasExplicitMod "Veiled"
+	SetBackgroundColor 0 64 0
+	SetBorderColor 98 98 98
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets = 3
+	AnyEnchantment True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 98 98 98
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets = 3
+	SynthesisedItem True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 98 98 98
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets = 3
+	FracturedItem True
+	SetBackgroundColor 0 64 0
+	SetBorderColor 98 98 98
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets = 3
+	ElderItem True
+	SetBackgroundColor 0 32 0
+	SetBorderColor 98 98 98
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets = 3
+	ShaperItem True
+	SetBackgroundColor 0 32 0
+	SetBorderColor 98 98 98
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Sockets = 3
+	Corrupted True
+	SetBackgroundColor 32 0 0
+	SetBorderColor 98 98 98
+Show
+	Sockets = 3
+	Rarity Rare
+	SetBorderColor 98 98 98
+Show
+	Sockets = 3
+	Class "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
+	Quality > 0
+	SetBackgroundColor 64 64 64
 	SetBorderColor 98 98 98
 Show
 	Sockets = 3
@@ -216,62 +675,67 @@ Show
 	SetBorderColor 98 98 98
 Show
 	Sockets = 3
-	ItemLevel < 26
+	ItemLevel < 46
+	Quality > 0
+	SetBackgroundColor 64 64 64
+	SetBorderColor 98 98 98
+Show
+	Sockets = 3
+	ItemLevel < 46
+	SetBorderColor 98 98 98
+Show
+	Sockets = 3
+	Quality > 0
+	SetFontSize 22
+	SetBackgroundColor 64 64 64
 	SetBorderColor 98 98 98
 #########################################
-#########################################rare
+#########################################Leagues mods quality
 #########################################
-Show
-	Rarity Rare
-#########################################
-#########################################Leagues mods
-#########################################
-Show
-	Corrupted True
-	SetBackgroundColor 64 0 0 255
-	PlayAlertSound 5 300
-	MinimapIcon 0 Green Circle
-Show
-	SynthesisedItem True
-	SetBackgroundColor 0 128 0 255
-	PlayAlertSound 5 300
-	MinimapIcon 0 Green Circle
-Show
-	FracturedItem True
-	SetBackgroundColor 0 128 0 255
-	PlayAlertSound 5 300
-	MinimapIcon 0 Green Circle
-Show
-	ElderItem True
-	SetBackgroundColor 0 128 0 255
-	PlayAlertSound 5 300
-	MinimapIcon 0 Green Circle
-Show
-	ShaperItem True
-	SetBackgroundColor 0 128 0 255
-	PlayAlertSound 5 300
-	MinimapIcon 0 Green Circle
 Show
 	HasExplicitMod "Veiled"
-	SetBackgroundColor 0 128 0 255
+	SetBackgroundColor 0 64 0
 	PlayAlertSound 5 300
 	MinimapIcon 0 Green Circle
 Show
 	AnyEnchantment True
-	SetBackgroundColor 0 128 0 255
+	SetBackgroundColor 0 64 0
 	PlayAlertSound 5 300
 	MinimapIcon 0 Green Circle
-#########################################
-#########################################quality
-#########################################
 Show
-	Quality > 10
-	ItemLevel < 51
-	SetBackgroundColor 64 64 64 255
+	SynthesisedItem True
+	SetBackgroundColor 0 64 0
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
 Show
-	Quality > 10
+	FracturedItem True
+	SetBackgroundColor 0 64 0
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	ElderItem True
+	SetBackgroundColor 0 64 0
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	ShaperItem True
+	SetBackgroundColor 0 64 0
+	PlayAlertSound 5 300
+	MinimapIcon 0 Green Circle
+Show
+	Corrupted True
 	SetFontSize 22
-	SetBackgroundColor 64 64 64 255
+	SetBackgroundColor 32 0 0
+Show
+	Rarity Rare
+	Quality > 0
+	SetBackgroundColor 64 64 64
+Show
+	Rarity Rare
+Show
+	Quality > 0
+	SetFontSize 22
+	SetBackgroundColor 64 64 64
 #########################################
 #########################################trash 1
 #########################################

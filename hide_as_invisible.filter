@@ -1,4 +1,4 @@
-#########################################simplefilter 20102019
+#########################################simplefilter 21102019
 # Shows all leagues currency, items, any currerncy, uniques, socket grup, socket linked, maps, fragments, quality gem and items with dynamical level, most original colors is save. Rest is Invisible.
 #########################################
 #########################################Core
@@ -209,6 +209,12 @@ Show
 	Corrupted True
 	SetBackgroundColor 192 0 0
 	SetBorderColor 64 0 0
+Show
+	Class "Rings" "Amulet" "Belts" "Jewel"
+	Sockets > 0
+	SetBackgroundColor 192 0 0
+	SetBorderColor 160 160 160
+	MinimapIcon 0 White Circle
 Show
 	Class "Rings" "Amulet" "Belts" "Jewel"
 	SetBackgroundColor 192 0 0
@@ -453,7 +459,7 @@ Show
 Show
 	LinkedSockets = 3
 	Rarity Rare
-	SetBorderColor 255 255 0
+	SetBorderColor 0 128 160
 Show
 	LinkedSockets = 3
 	Class "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"

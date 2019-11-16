@@ -1,5 +1,5 @@
-#########################################hide as invisible 03112019
-# Shows all leagues currency, items, any currerncy, uniques, socket grup, socket linked, maps, fragments, quality gem and items with dynamical level, most original colors is save. Rest is Invisible.
+#########################################hide as invisible 14112019
+# Color prioryty: Green, Yellow, Blue, White, Black.
 #########################################
 #########################################Core
 #########################################Quest
@@ -34,7 +34,7 @@ Show
 	MinimapIcon 0 Green Diamond
 Show
 	Rarity Unique
-	HasExplicitMod "Veiled"
+	HasExplicitMod " Veil"
 	SetTextColor 224 224 0
 	SetBackgroundColor 0 160 0
 	PlayEffect Green Temp
@@ -181,7 +181,7 @@ Show
 #########################################
 Show
 	Class "Rings" "Amulet" "Belts" "Jewel"
-	HasExplicitMod "Veiled"
+	HasExplicitMod " Veil"
 	SetBackgroundColor 144 0 0
 	SetBorderColor 0 160 0
 	PlayAlertSound 5 300
@@ -250,7 +250,7 @@ Show
 #########################################possibility of 5 socket min 35 itemlevel, possibility of 6 socket min 50 itemlevel
 Show
 	LinkedSockets > 4
-	HasExplicitMod "Veiled"
+	HasExplicitMod " Veil"
 	SetBackgroundColor 0 64 0
 	SetBorderColor 0 255 0
 	PlayAlertSound 6 300
@@ -330,7 +330,7 @@ Show
 #########################################possibility of 5 socket min 35 itemlevel, possibility of 6 socket min 50 itemlevel
 Show
 	Sockets > 4
-	HasExplicitMod "Veiled"
+	HasExplicitMod " Veil"
 	SetBackgroundColor 0 64 0
 	SetBorderColor 255 255 255
 	PlayAlertSound 5 300
@@ -386,6 +386,14 @@ Show
 	MinimapIcon 0 White Hexagon
 Show
 	Sockets > 4
+	SocketGroup RGB
+	SetBackgroundColor 0 32 96
+	SetBorderColor 255 255 255
+	PlayAlertSound 5 300
+	PlayEffect White Temp
+	MinimapIcon 0 White Hexagon
+Show
+	Sockets > 4
 	Quality > 9
 	SetBackgroundColor 64 64 64
 	SetBorderColor 255 255 255
@@ -402,7 +410,7 @@ Show
 #########################################possibility of 4 socket min 25 itemlevel, max item class of 4 "Boots" "Helmets" "Gloves"
 Show
 	LinkedSockets = 4
-	HasExplicitMod "Veiled"
+	HasExplicitMod " Veil"
 	SetBackgroundColor 0 64 0
 	SetBorderColor 255 255 0
 	PlayAlertSound 5 300
@@ -493,7 +501,7 @@ Show
 #########################################max item class of 3 "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
 Show
 	LinkedSockets = 3
-	HasExplicitMod "Veiled"
+	HasExplicitMod " Veil"
 	SetBackgroundColor 0 64 0
 	SetBorderColor 0 128 160
 	PlayAlertSound 5 300
@@ -586,7 +594,7 @@ Show
 Show
 	Sockets = 4
 	SetBorderColor 144 144 144
-	HasExplicitMod "Veiled"
+	HasExplicitMod " Veil"
 	SetBackgroundColor 0 64 0
 	PlayAlertSound 5 300
 	MinimapIcon 0 Green Circle
@@ -670,7 +678,7 @@ Show
 #########################################max item class of 3 "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
 Show
 	Sockets = 3
-	HasExplicitMod "Veiled"
+	HasExplicitMod " Veil"
 	SetBackgroundColor 0 64 0
 	SetBorderColor 64 64 64
 	PlayAlertSound 5 300
@@ -755,7 +763,7 @@ Show
 #########################################Leagues mods quality
 #########################################
 Show
-	HasExplicitMod "Veiled"
+	HasExplicitMod " Veil"
 	SetBackgroundColor 0 64 0
 	PlayAlertSound 5 300
 	MinimapIcon 0 Green Circle

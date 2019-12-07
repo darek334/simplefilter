@@ -1,4 +1,4 @@
-#########################################hide as invisible 14112019
+#########################################hide as invisible 28112019
 # Color prioryty: Green, Yellow, Blue, White, Black.
 #########################################
 #########################################Core
@@ -99,31 +99,23 @@ Show
 #########################################Leagues
 #########################################No rules: Anarchy, Onslaught, Domination, Nemesis, Ambush, Invasion, Rampage, Beyond, Torment, Bloodlines, Warbands, Tempest, Talisman, Perandus, Prophecy, Essence, Breach, Legacy, Harbinger, Bestiary Betrayal Synthesis Legion
 Show
-	Class Abyss Incursion Delve Leaguestone Labyrinth Pantheon Incubator
+	Class Incursion Currency Labyrinth
+	BaseType "Stone of Passage" "Silver Coin" "Essence" "Splinter" "Prophecy" "Fossil" "Emblem" "Perandus Coin" "Vial of " "Blessing of " "Bestiary Orb" "Remnant of Corruption" " Oil"
 	SetTextColor 0 0 0
 	SetBackgroundColor 224 224 0
-	PlayEffect Yellow Temp
 	PlayAlertSound 6 300
+	PlayEffect Yellow
 	MinimapIcon 0 Yellow Diamond
 Show
-	Class Currency
-	BaseType "Prophecy" "Fossil" "Silver Coin" "Essence" "Splinter" "Emblem" "Perandus Coin" "Vial of " "Blessing of " "Bestiary Orb" "Remnant of Corruption" " Oil"
+	Class Labyrinth Abyss Incursion Delve Leaguestone Pantheon Incubator
 	SetTextColor 0 0 0
 	SetBackgroundColor 224 224 0
-	PlayEffect Yellow Temp
 	PlayAlertSound 6 300
+	PlayEffect Yellow Temp
 	MinimapIcon 0 Yellow Diamond
 #########################################
 #########################################Currency
 #########################################
-Show
-	Class Currency
-	BaseType "Chaos" "Alchemy" "Chance" "Alteration" "Mirror of Kalandra" "Regal" "Regret" "Fusing" "Exalted" "Jeweller" "Divine" "Blessed" "Scouring" "Vaal Orb" "Essence" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Annulment" "Annulment Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Mirror Shard"
-	SetTextColor 0 0 0
-	SetBackgroundColor 0 255 255
-	PlayAlertSound 6 300
-	PlayEffect Blue Temp
-	MinimapIcon 0 Blue Diamond
 Show
 	Class Currency
 	BaseType "Armourer's Scrap" "Blacksmith's Whetstone" "Chromatic Orb" "Portal Scroll" "Scroll of Wisdom" "Alteration Shard" "Alchemy Shard" "Scroll Fragment" "Transmutation Shard" "Orb of Transmutation" "Orb of Alteration" "Orb of Augmentation"
@@ -132,7 +124,23 @@ Show
 	PlayAlertSound 1 200 # 12
 Show
 	Class Currency
-	SetTextColor 0 32 32
+	BaseType "Alteration" "Vaal Orb" "Ancient Orb" "Ancient Shard" "Orb of Binding" "Binding Shard" "Engineer's Orb" "Engineer's Shard" "Orb of Annulment" "Annulment Shard" "Orb of Horizons" "Horizon Shard" "Harbinger's Orb" "Harbinger's Shard" "Mirror Shard"
+	SetTextColor 0 0 0
+	SetBackgroundColor 0 255 255
+	PlayAlertSound 6 300
+	PlayEffect Blue Temp
+	MinimapIcon 0 Blue Diamond
+Show
+	Class Currency
+	BaseType "Mirror of Kalandra" "Exalted" "Chaos" "Alchemy" "Regal" "Fusing" "Regret" "Divine" "Blessed" "Chance" "Jeweller" "Essence" "Scouring"
+	SetTextColor 0 0 0
+	SetBackgroundColor 0 255 255
+	PlayAlertSound 6 300
+	PlayEffect Blue
+	MinimapIcon 0 Blue Diamond
+Show
+	Class Currency
+	SetTextColor 0 0 0
 	SetBackgroundColor 0 160 224
 	PlayAlertSound 5 300 # 12
 #########################################
@@ -142,6 +150,8 @@ Show
 	Class Maps "Map Fragments" "Map Items"
 	SetBackgroundColor 160 64 0
 	PlayAlertSound 5 300
+	PlayEffect Brown Temp
+	MinimapIcon 0 Brown Circle
 #########################################
 #########################################Divination Card, Special
 #########################################
@@ -149,6 +159,8 @@ Show
 	Class "Divination Card" "Fishing Rods" Piece Hideout Microtransactions
 	SetBackgroundColor 160 64 0
 	PlayAlertSound 5 300
+	PlayEffect Brown Temp
+	MinimapIcon 0 Brown Circle
 #########################################
 #########################################Gem
 #########################################

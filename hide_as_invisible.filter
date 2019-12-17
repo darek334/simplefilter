@@ -1,8 +1,7 @@
-#########################################hide as invisible 28112019
-# Color prioryty: Green, Yellow, Blue, White, Black.
+#########################################simplefilter 17122019
+# Color prioryty: Green, Yellow, Blue, White, Black
 #########################################
-#########################################Core
-#########################################Quest
+#########################################Quests
 #########################################
 Show
 	Class Quest
@@ -107,7 +106,7 @@ Show
 	PlayEffect Yellow
 	MinimapIcon 0 Yellow Diamond
 Show
-	Class Labyrinth Abyss Incursion Delve Leaguestone Pantheon Incubator
+	Class Labyrinth Abyss Incursion Delve Leaguestone Pantheon Incubator "Metamorph Sample"
 	SetTextColor 0 0 0
 	SetBackgroundColor 224 224 0
 	PlayAlertSound 6 300
@@ -147,7 +146,7 @@ Show
 #########################################Maps
 #########################################
 Show
-	Class Maps "Map Fragments" "Map Items"
+	Class Maps "Map Fragments" "Map Items" "Atlas Region Upgrade Item"
 	SetBackgroundColor 160 64 0
 	PlayAlertSound 5 300
 	PlayEffect Brown Temp
@@ -162,7 +161,7 @@ Show
 	PlayEffect Brown Temp
 	MinimapIcon 0 Brown Circle
 #########################################
-#########################################Gem
+#########################################Gems
 #########################################
 Show 
 	Class Gem "Support Skill Gems"
@@ -576,13 +575,13 @@ Show
 	SetBorderColor 0 128 160
 Show
 	LinkedSockets = 3
-	Class "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
+	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands" "Shields"
 	Quality > 9
 	SetBackgroundColor 64 64 64
 	SetBorderColor 0 128 160
 Show
 	LinkedSockets = 3
-	Class "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
+	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands" "Shields"
 	SetBorderColor 0 128 160
 Show
 	LinkedSockets = 3
@@ -747,13 +746,13 @@ Show
 	SetBorderColor 64 64 64
 Show
 	Sockets = 3
-	Class "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
+	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands" "Shields"
 	Quality > 9
 	SetBackgroundColor 64 64 64
 	SetBorderColor 64 64 64
 Show
 	Sockets = 3
-	Class "Claws" "One Hand" "Daggers" "Rune Dagger" "Sceptres" "Wands" "Shields"
+	Class "Claws" "One Hand" "Daggers" "Sceptres" "Wands" "Shields"
 	SetBorderColor 64 64 64
 Show
 	Sockets = 3
